@@ -1,0 +1,11 @@
+# Editor's swp Files
+*~
+*.swp
+
+# Class  Files
+*.class
+
+# Package Files
+*.jar
+*.war
+*.ear

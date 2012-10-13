@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.4" PIVersion="1.0.0.0" href="file:///D:\教学\软件项目实践\软件项目实践\文档模板\《任务书》模板.xsn" name="urn:schemas-microsoft-com:office:infopath:-kQV-Qo:" language="zh-cn" productVersion="14.0.0" ?><?mso-application progid="InfoPath.Document"?><任务书 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<首部 项目名称="卡拉OK点歌系统网页版" 项目标识="C1209KLok" version="1.0">
+		<状态与版本信息>
+			<文件状态></文件状态>
+			<文件标识></文件标识>
+			<当前版本></当前版本>
+			<作者>
+				<姓名>常春;张斌</姓名>
+				<学号>2009011277;2009011281</学号>
+				<团队>小鱼儿</团队>
+			</作者>
+			<完成日期></完成日期>
+			<版本更新信息></版本更新信息>
+		</状态与版本信息>
+		<引言>
+			<使用人员></使用人员>
+			<编写目的></编写目的>
+			<背景></背景>
+		</引言>
+	</首部>
+	<下达人>海岸国际软件股份有限公司总经理孙清源</下达人>
+	<下达时间>2012-09-14</下达时间>
+	<项目经理>黄晨</项目经理>
+	<项目计划提交期限>2012-09-21</项目计划提交期限>
+	<送达人>黄晨，唐安杰，荆瑜，史兴盛，王振，付崇武，孙清源，李洋，温晨，于迪。</送达人>
+	<项目目标>
+		<目标条目>设计完成卡拉OK点歌系统，提供给用户完整的用户体验，满足用户的娱乐要求。</目标条目><目标条目>硬件需要两台服务器，音箱设备，灯光设备。</目标条目>
+	</项目目标>
+	<项目范围>
+		<项目性质>软件工程项目</项目性质>
+		<项目组成><div xmlns="http://www.w3.org/1999/xhtml">1.首先保证整个系统的完整性及流畅性，不能出现中断或某一模块的功能没有实现；</div>
+<div xmlns="http://www.w3.org/1999/xhtml">2.完善现有的音乐库，建立尽量详细高效的信息数据库；</div>
+<div xmlns="http://www.w3.org/1999/xhtml">3.实现点歌功能；</div>
+<div xmlns="http://www.w3.org/1999/xhtml">4.查询歌曲要可以有按歌名查询、按歌手查询；</div>
+<div xmlns="http://www.w3.org/1999/xhtml">5.可查看已点歌曲；</div>
+<div xmlns="http://www.w3.org/1999/xhtml">6.可实现切歌、伴奏、原声、调节音量功能；</div>
+<div xmlns="http://www.w3.org/1999/xhtml">7.曲库要求最少可容纳5000首歌曲</div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体"></font> </div></项目组成>
+		<项目要求><div xmlns="http://www.w3.org/1999/xhtml">具体的性能要求，响应时间要求，数据要求、功能要求，硬件要求等</div>
+<div xmlns="http://www.w3.org/1999/xhtml">需要CPU p4及以上版本，操作系统需要windowsXP or win7，响应时间应在1s之内，歌曲需要能存储不低于5000首歌的空间，可实现点歌，查询歌名，歌手，录制歌曲等功能，硬件需要大于2TB的硬盘以及大于4GB的内存所组成的服务器，并且相关的音箱设备，灯光设备。</div></项目要求>
+		<项目范围特殊说明>无</项目范围特殊说明>
+	</项目范围>
+	<项目输入>
+		<输入条目>《招标书》</输入条目><输入条目>《投标书》</输入条目><输入条目>《配置管理计划》</输入条目><输入条目>《件工程过程定义》</输入条目><输入条目>《质量保障计划》</输入条目>
+	</项目输入>
+	<项目用户>海岸文化传媒有限公司</项目用户>
+	<与其他项目关系>无</与其他项目关系>
+	<项目限制>
+		<完成时间>2012-11-07</完成时间>
+		<资金>￥205700.00元</资金>
+		<资源><div xmlns="http://www.w3.org/1999/xhtml">人力：黄晨（项目经理），唐安杰（开发组组长），荆瑜（配置组组长），史兴盛（质保组组长），王振（系统分析），付崇武（编程），孙清源（文档撰写），李洋（测试），温晨（测试），于迪（用户组组长），常春（单元测试），张斌（文档撰写）。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">设备：服务器，计算机，以及基本的办公条件。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">物料：光盘一盒，移动硬盘2个，以及各类损耗品。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">空间：足够的房间以供人员工作</div>
+<div xmlns="http://www.w3.org/1999/xhtml">时间：7周</div>
+<div xmlns="http://www.w3.org/1999/xhtml">金钱：205700元</div></资源>
+		<实现限制><div xmlns="http://www.w3.org/1999/xhtml">版本控制以及测试的实现控制。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">硬件实现需要：CPU p4及以上版本</div>
+<div xmlns="http://www.w3.org/1999/xhtml">windowsXP or win7 </div>
+<div xmlns="http://www.w3.org/1999/xhtml">sql server 2005及以上版本等</div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></实现限制>
+	</项目限制>
+	<其他></其他>
+</任务书>

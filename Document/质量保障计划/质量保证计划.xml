@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.3" PIVersion="1.0.0.0" href="file:///D:\教学\软件项目实践\软件项目实践\文档模板\《质量保证计划》模板.xsn" name="urn:schemas-microsoft-com:office:infopath:-X-M1QB-Qo:" language="zh-cn" productVersion="14.0.0" ?><?mso-application progid="InfoPath.Document"?><质量保证计划 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<首部 项目名称="卡拉ok点歌系统网页版" 项目标识="Z00001" version="1.0">
+		<状态与版本信息>
+			<文件状态>正式发布</文件状态>
+			<文件标识></文件标识>
+			<当前版本>1.0</当前版本>
+			<作者>
+				<姓名>黄晨</姓名>
+				<学号>2009011275</学号>
+				<团队>小鱼儿</团队>
+			</作者>
+			<完成日期>2012-09-15</完成日期>
+			<版本更新信息>v1.0为第一次正式发布版本</版本更新信息>
+		</状态与版本信息>
+		<引言>
+			<使用人员><font xmlns="http://www.w3.org/1999/xhtml" size="3">质量保证组成员</font></使用人员>
+			<编写目的><div xmlns="http://www.w3.org/1999/xhtml"><font size="3">本计划的目的在于对所开发的卡拉ok点歌系统网页版规定各种必要的质量保证措施，以保证所交付的卡拉ok点歌系统网页版能够满足项目委托书或合同中规定的各项需求，能够满足本项目总体组制定的且经领导小组批准的该软件系统需求规格说明书中规定的各项具体需求。</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></编写目的>
+			<背景><div xmlns="http://www.w3.org/1999/xhtml"><font size="3">软件开发单位在开发卡拉ok点歌系统网页版系统所属的各个子系统（其中包括为本项目研制或选用的各种支持软件）时，都应该执行本计划中的有关规定，但可根据各自的情况对本计划作适当的剪裁，以满足特定的质量保证要求，剪裁后的计划必须经总体组批准。且经领导小组批准的该软件系统需求规格说明书中规定的各项具体需求。</font></div></背景>
+			<定义与缩写>
+				<术语>质量保证计划</术语>
+				<解释><font xmlns="http://www.w3.org/1999/xhtml" size="3">质量保证计划是建立一套有计划，有系统的方法，来向管理层保证拟定出的标准、步骤、实践和方法能够正确地被所有项目所采用。软件质量保证的目的是使软件过程对于管理人员来说是可见的。它通过对软件产品和活动进行评审和审计来验证软件是合乎标准的。软件质量保证组在项目开始时就一起参与建立计划、标准和过程。这些将使软件项目满足机构方针的要求。</font></解释>
+			<术语>FTR</术语><解释><div xmlns="http://www.w3.org/1999/xhtml">正式技术评审</div>
+<div xmlns="http://www.w3.org/1999/xhtml">在计算机软件开发质量质量控制中，正式技术复审（FTR，Formal Technical Review）是一种由软件开发人员进行的软件质量保证活动，其目的是：<br/>　　（1） 在软件的任何一种表示形式中发现功能、逻辑或实现的错误；<br/>　　（2） 验证经过复审的软件确实满足需求；<br/>　　（3） 保证软件符合预定义的标准；<br/>　　（4） 使软件按照一致的方式开发；<br/>　　（5） 使项目更易于管理。<br/>　　此外，FTR还起到了提高项目的连续性和培训后备人员的作用。FTR包括走查（Walkthrough）、审查（Inspection）、循环评审（Round-robin Review）以及其他软件小组的技术评估。每次FTR都以会议形式进行，只有经过适当的计划、控制和参与，FTR才能获得成功。</div></解释><术语>ITR</术语><解释>非正式技术评审</解释></定义与缩写>
+			<参考资料>
+				<条目><a href="http://baike.baidu.com/view/195810.htm" xmlns="http://www.w3.org/1999/xhtml">http://baike.baidu.com/view/195810.htm</a>    百度百科软件质量保证</条目><条目><a href="http://baike.baidu.com/view/1759973.htm" xmlns="http://www.w3.org/1999/xhtml">http://baike.baidu.com/view/1759973.htm</a>   百度百科FTR</条目>
+			</参考资料>
+		</引言>
+	</首部>
+	<过程与产品质量检查计划>
+		<过程域>
+			<名称>系统规划</名称>
+			<工作成果><span xmlns="http://www.w3.org/1999/xhtml" style="FONT-SIZE: 10.5pt"><font face="宋体">软件项目计划、配置管理计划、质量保证计划</font></span></工作成果>
+			<检查时间>2012-09-20</检查时间>
+			<质保人员>李洋</质保人员>
+			<检查人员>史兴盛</检查人员>
+		</过程域>
+	<过程域>
+									<名称>需求开发</名称>
+									<工作成果><div xmlns="http://www.w3.org/1999/xhtml" style="LINE-HEIGHT: 150%; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm; MARGIN-BOTTOM: 0pt; FONT-SIZE: 10.5pt" align="justify"><font face="宋体">需求规格说明书</font></div></工作成果>
+									<检查时间>2012-09-22</检查时间>
+									<质保人员>张腾飞</质保人员>
+									<检查人员>史兴盛</检查人员>
+								</过程域><过程域>
+									<名称>设计</名称>
+									<工作成果><span xmlns="http://www.w3.org/1999/xhtml" style="FONT-SIZE: 10.5pt"><font face="宋体">概要设计说明书、数据库设计说明书、模块设计说明书</font></span></工作成果>
+									<检查时间>2012-09-29</检查时间>
+									<质保人员>温晨</质保人员>
+									<检查人员>杨熠波</检查人员>
+								</过程域><过程域>
+									<名称>实现</名称>
+									<工作成果><div xmlns="http://www.w3.org/1999/xhtml" style="LINE-HEIGHT: 150%; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm; MARGIN-BOTTOM: 0pt; FONT-SIZE: 10.5pt" align="justify"><font face="宋体">产品代码（源程序）</font></div></工作成果>
+									<检查时间>2012-10-18</检查时间>
+									<质保人员>杨熠波</质保人员>
+									<检查人员>张腾飞</检查人员>
+								</过程域><过程域>
+									<名称>系统集成</名称>
+									<工作成果>测试报告</工作成果>
+									<检查时间>2012-11-01</检查时间>
+									<质保人员>史兴盛</质保人员>
+									<检查人员>温晨</检查人员>
+								</过程域><过程域>
+									<名称>提交</名称>
+									<工作成果><span xmlns="http://www.w3.org/1999/xhtml" style="FONT-SIZE: 10.5pt"><font face="宋体">验收报告</font></span></工作成果>
+									<检查时间>2012-11-06</检查时间>
+									<质保人员>李洋</质保人员>
+									<检查人员>史兴盛</检查人员>
+								</过程域></过程与产品质量检查计划>
+	<技术评审计划>
+		<评审内容>
+			<名称>软件项目计划</名称>
+			<方式>FTR</方式>
+			<评审时间>2012-09-19</评审时间>
+			<质保人员>史兴盛</质保人员>
+			<评审人员><div xmlns="http://www.w3.org/1999/xhtml">黄晨</div>
+<div xmlns="http://www.w3.org/1999/xhtml">唐安杰</div></评审人员>
+		</评审内容>
+	<评审内容>
+									<名称>配置管理计划</名称>
+									<方式>FTR</方式>
+									<评审时间>2012-09-19</评审时间>
+									<质保人员>李洋</质保人员>
+									<评审人员><div xmlns="http://www.w3.org/1999/xhtml">史兴盛</div>
+<div xmlns="http://www.w3.org/1999/xhtml">荆榆</div></评审人员>
+								</评审内容><评审内容>
+									<名称>质量保证计划</名称>
+									<方式>FTR</方式>
+									<评审时间>2012-09-19</评审时间>
+									<质保人员>张腾飞</质保人员>
+									<评审人员><div xmlns="http://www.w3.org/1999/xhtml">黄晨</div>
+<div xmlns="http://www.w3.org/1999/xhtml">荆榆</div></评审人员>
+								</评审内容><评审内容>
+									<名称>需求规格说明书</名称>
+									<方式>FTR</方式>
+									<评审时间>2012-09-21</评审时间>
+									<质保人员>温晨</质保人员>
+									<评审人员><div xmlns="http://www.w3.org/1999/xhtml">唐安杰</div>
+<div xmlns="http://www.w3.org/1999/xhtml">史兴盛</div></评审人员>
+								</评审内容><评审内容>
+									<名称>概要设计说明书</名称>
+									<方式>FTR</方式>
+									<评审时间>2012-09-28</评审时间>
+									<质保人员>杨熠波</质保人员>
+									<评审人员><div xmlns="http://www.w3.org/1999/xhtml">黄晨</div>
+<div xmlns="http://www.w3.org/1999/xhtml">史兴盛</div></评审人员>
+								</评审内容><评审内容>
+									<名称>数据库设计说明书</名称>
+									<方式>FTR</方式>
+									<评审时间>2012-09-28</评审时间>
+									<质保人员>史兴盛</质保人员>
+									<评审人员><div xmlns="http://www.w3.org/1999/xhtml">唐安杰</div>
+<div xmlns="http://www.w3.org/1999/xhtml">荆榆</div></评审人员>
+								</评审内容><评审内容>
+									<名称>模块设计说明书</名称>
+									<方式>FTR</方式>
+									<评审时间>2012-09-28</评审时间>
+									<质保人员>杨熠波</质保人员>
+									<评审人员><div xmlns="http://www.w3.org/1999/xhtml">唐安杰</div>
+<div xmlns="http://www.w3.org/1999/xhtml">荆榆</div></评审人员>
+								</评审内容><评审内容>
+									<名称>点歌模块代码</名称>
+									<方式>ITR</方式>
+									<评审时间>2012-10-18</评审时间>
+									<质保人员>张腾飞</质保人员>
+									<评审人员><div xmlns="http://www.w3.org/1999/xhtml">史兴盛</div>
+<div xmlns="http://www.w3.org/1999/xhtml">黄晨</div></评审人员>
+								</评审内容><评审内容>
+									<名称>榜单模块代码</名称>
+									<方式>ITR</方式>
+									<评审时间>2012-10-18</评审时间>
+									<质保人员>李洋</质保人员>
+									<评审人员><div xmlns="http://www.w3.org/1999/xhtml">荆榆</div>
+<div xmlns="http://www.w3.org/1999/xhtml">黄晨</div></评审人员>
+								</评审内容><评审内容>
+									<名称>集成测试报告</名称>
+									<方式>ITR</方式>
+									<评审时间>2012-10-25</评审时间>
+									<质保人员>张腾飞</质保人员>
+									<评审人员><div xmlns="http://www.w3.org/1999/xhtml">史兴盛</div>
+<div xmlns="http://www.w3.org/1999/xhtml">黄晨</div></评审人员>
+								</评审内容><评审内容>
+									<名称>系统测试报告</名称>
+									<方式>FTR</方式>
+									<评审时间>2012-11-03</评审时间>
+									<质保人员>温晨</质保人员>
+									<评审人员><div xmlns="http://www.w3.org/1999/xhtml">荆榆</div>
+<div xmlns="http://www.w3.org/1999/xhtml">唐安杰</div></评审人员>
+								</评审内容><评审内容>
+									<名称>验收测试报告</名称>
+									<方式>FTR</方式>
+									<评审时间>2012-11-06</评审时间>
+									<质保人员>杨熠波</质保人员>
+									<评审人员><div xmlns="http://www.w3.org/1999/xhtml">黄晨</div>
+<div xmlns="http://www.w3.org/1999/xhtml">唐安杰</div>
+<div xmlns="http://www.w3.org/1999/xhtml">荆榆</div>
+<div xmlns="http://www.w3.org/1999/xhtml">史兴盛</div></评审人员>
+								</评审内容></技术评审计划>
+	<产品测试计划>
+		<测试内容>
+			<测试类型>单元测试</测试类型>
+			<测试时间>2012-10-01</测试时间>
+			<测试计划><span xmlns="http://www.w3.org/1999/xhtml" style="FONT-SIZE: 12pt"><font face="宋体">单元测试计划</font></span></测试计划>
+			<质保人员>李洋</质保人员>
+			<测试人员><div xmlns="http://www.w3.org/1999/xhtml">张腾飞</div>
+<div xmlns="http://www.w3.org/1999/xhtml">杨熠波</div></测试人员>
+		</测试内容>
+	<测试内容>
+									<测试类型>集成测试</测试类型>
+									<测试时间>2012-10-18</测试时间>
+									<测试计划><span xmlns="http://www.w3.org/1999/xhtml" style="FONT-SIZE: 12pt"><font face="宋体">集成测试计划</font></span></测试计划>
+									<质保人员>温晨</质保人员>
+									<测试人员><div xmlns="http://www.w3.org/1999/xhtml">李洋</div>
+<div xmlns="http://www.w3.org/1999/xhtml">杨熠波</div></测试人员>
+								</测试内容><测试内容>
+									<测试类型>系统测试</测试类型>
+									<测试时间>2012-10-25</测试时间>
+									<测试计划><span xmlns="http://www.w3.org/1999/xhtml" style="FONT-SIZE: 12pt"><font face="宋体">系统测试计划</font></span></测试计划>
+									<质保人员>杨熠波</质保人员>
+									<测试人员><div xmlns="http://www.w3.org/1999/xhtml">史兴盛</div>
+<div xmlns="http://www.w3.org/1999/xhtml">温晨</div>
+<div xmlns="http://www.w3.org/1999/xhtml">张腾飞</div></测试人员>
+								</测试内容><测试内容>
+									<测试类型>验收测试</测试类型>
+									<测试时间>2012-11-06</测试时间>
+									<测试计划><span xmlns="http://www.w3.org/1999/xhtml" style="FONT-SIZE: 12pt"><font face="宋体">验收测试计划</font></span></测试计划>
+									<质保人员>张腾飞</质保人员>
+									<测试人员><div xmlns="http://www.w3.org/1999/xhtml">史兴盛</div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font face="SimSun">李洋</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml">杨熠波</div></测试人员>
+								</测试内容></产品测试计划>
+	<质量目标><ol style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" type="1" xmlns="http://www.w3.org/1999/xhtml">
+<li style="LINE-HEIGHT: 150%; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm; MARGIN-BOTTOM: 0pt; FONT-SIZE: 10.5pt" align="justify"><span style="FONT-SIZE: 12pt"></span><span style="FONT-SIZE: 12pt"><font face="宋体">基于需求的测试覆盖率为100%。</font></span></li>
+<li style="LINE-HEIGHT: 150%; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm; MARGIN-BOTTOM: 0pt; FONT-SIZE: 10.5pt" align="justify"><span style="FONT-SIZE: 12pt"></span><span style="FONT-SIZE: 12pt"><font face="宋体">软件功能测试用例通过率不低于95%。</font></span></li>
+<li style="LINE-HEIGHT: 150%; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm; MARGIN-BOTTOM: 0pt; FONT-SIZE: 10.5pt" align="justify"><span style="FONT-SIZE: 12pt"></span><span style="FONT-SIZE: 12pt"><font face="宋体">每个阶段评审中发现的问题都已解决或等到妥善处理。</font></span></li>
+<li style="LINE-HEIGHT: 150%; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm; MARGIN-BOTTOM: 0pt; FONT-SIZE: 10.5pt" align="justify"><span style="FONT-SIZE: 12pt"></span><span style="FONT-SIZE: 12pt"><font face="宋体">产品验收时不存在严重问题及缺陷。</font></span></li></ol>
+<div xmlns="http://www.w3.org/1999/xhtml" style="LINE-HEIGHT: 150%; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm; MARGIN-BOTTOM: 0pt; FONT-SIZE: 10.5pt" align="justify"><span style="FONT-SIZE: 12pt">
+<p style="LINE-HEIGHT: 150%; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm; MARGIN-BOTTOM: 0pt; FONT-SIZE: 10.5pt" align="justify"><span style="FONT-SIZE: 12pt"><font face="宋体">  注：严重问题指导致系统或功能模块不能正常工作的问题。</font></span><span style="FONT-SIZE: 12pt"></span></p></span><span style="FONT-SIZE: 12pt"></span></div></质量目标>
+	<质量保证活动><div xmlns="http://www.w3.org/1999/xhtml" style="LINE-HEIGHT: 150%; MARGIN-TOP: 0cm; TEXT-INDENT: 28pt; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm; MARGIN-BOTTOM: 0pt; FONT-SIZE: 10.5pt" align="justify"><span style="FONT-SIZE: 12pt"><font face="宋体">正式技术评审（FTR）采用评审会议形式；非正式技术评审（ITR）采用文件传阅形式。正式技术评审必须形成评审记录。质量保证人员将发现的问题和解决情况在例会上通报，对未解决的问题进行讨论，对不能解决的问题提交项目经理。</font></span></div>
+<div xmlns="http://www.w3.org/1999/xhtml" style="LINE-HEIGHT: 150%; MARGIN-TOP: 0cm; TEXT-INDENT: 28pt; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm; MARGIN-BOTTOM: 0pt; FONT-SIZE: 10.5pt" align="justify"><span style="FONT-SIZE: 12pt"><font face="宋体">每个周末，进行一次例会，对配置管理进行审核，确认配置管理工作是否正常进行。</font></span><span style="FONT-SIZE: 12pt"></span></div></质量保证活动>
+	<记录的收集维护和保存><div xmlns="http://www.w3.org/1999/xhtml" style="LINE-HEIGHT: 150%; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm; MARGIN-BOTTOM: 0pt; FONT-SIZE: 10.5pt" align="justify"><span style="FONT-SIZE: 12pt"><font face="宋体">项目组应当保留项目执行过程中形成的各类文档、周报、会议记录，对重要文档质量保证人员定期进行审计。</font></span><span style="FONT-SIZE: 12pt"></span></div></记录的收集维护和保存>
+</质量保证计划>

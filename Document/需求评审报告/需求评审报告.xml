@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.6" PIVersion="1.0.0.0" href="file:///D:\教学\软件项目实践\网站\公开\教学资源\文档模板\《评审报告》模板.xsn" name="urn:schemas-microsoft-com:office:infopath:-4QU--Qo:" language="zh-cn" productVersion="14.0.0" ?><?mso-application progid="InfoPath.Document"?><评审报告 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<首部 项目名称="卡拉ok点歌系统网页版" 项目标识="C1209KLok" version="1.0">
+		<状态与版本信息>
+			<文件状态>正式发布</文件状态>
+			<文件标识>卡拉OK点歌系统-需求评审报告-1.0</文件标识>
+			<当前版本>1.0</当前版本>
+			<作者>
+				<姓名>黄晨</姓名>
+				<学号>2009011275</学号>
+				<团队>小鱼儿</团队>
+			</作者>
+			<完成日期>2012-10-03</完成日期>
+			<版本更新信息>1.0<font xmlns="http://www.w3.org/1999/xhtml" face="SimSun">版本为初始版本</font></版本更新信息>
+		</状态与版本信息>
+	</首部>
+	<标题>需求评审报告</标题>
+	<组织名称>小鱼儿</组织名称>
+	<评审种类>
+		<事件评审 事件名称="完成需求报告"></事件评审>
+	</评审种类>
+	<主持人>黄晨</主持人>
+	<参加人><div xmlns="http://www.w3.org/1999/xhtml">开发组组长：唐安杰 </div>
+<div xmlns="http://www.w3.org/1999/xhtml">配置组组长：荆榆 </div>
+<div xmlns="http://www.w3.org/1999/xhtml">质量保证组组长：史兴胜 </div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统分析师：于迪 王振</div>
+<div xmlns="http://www.w3.org/1999/xhtml">客户组代表：陈晨</div></参加人>
+	<地点>北京信息可解大学-健翔桥校区-教二301</地点>
+	<日期>2012-09-29</日期>
+	<提交内容><div xmlns="http://www.w3.org/1999/xhtml">软件需求分析报告</div>
+<div xmlns="http://www.w3.org/1999/xhtml">需求评审报告</div></提交内容>
+	<评审项与结论>
+		<要素>一致性</要素>
+		<评审结果>有上下文描述不一致的情况</评审结果>
+		<问题和对策><div xmlns="http://www.w3.org/1999/xhtml"><font face="SimSun">问题：</font><font face="SimSun">用户类型里出现了“欢唱城消费者”等叙述，本软件用户对象并不是所谓“欢唱城”的消费者</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml">对策：修改为消费者以及软件用户</div></问题和对策>
+	<要素>正确性</要素><评审结果>存在描述以及功能设定与系统开发初衷不符</评审结果><问题和对策><div xmlns="http://www.w3.org/1999/xhtml"><font face="SimSun">问题：文档中有“包厢”叙述，本系统是网页应用，并不牵涉到所谓“包厢”。</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml">对策：修改为合适用词</div>
+<div xmlns="http://www.w3.org/1999/xhtml">问题：软件功能叙述中出现点餐点酒水服务，本系统是网页应用，没有此项功能</div>
+<div xmlns="http://www.w3.org/1999/xhtml">对策：取消此项功能</div></问题和对策></评审项与结论>
+	<总结><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">总体上，这份需求规格说明书是一份很完整的说明文档，对于系统功能性分析、性能分析、运行环境、接口等都有说明，而且功能分析比较完整。只是在功能设定以及文档描述上需要稍微修改一些 </font></div></div></总结>
+	<签字><div xmlns="http://www.w3.org/1999/xhtml">黄晨 唐安杰 荆榆 史兴胜 王振 于迪 陈晨</div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></签字>
+	<附件>
+		<其他材料></其他材料>
+		<评审记录><div xmlns="http://www.w3.org/1999/xhtml">开发组组长唐安杰提出服务功能中点餐点酒水功能并不符合开发初衷。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">用户组代表陈晨提出用户对象的胜定存在不正确地方。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">质保组组长史兴胜提出“包厢”描述不准确。</div></评审记录>
+	</附件>
+</评审报告>

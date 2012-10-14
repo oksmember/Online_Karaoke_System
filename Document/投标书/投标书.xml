@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.11" PIVersion="1.0.0.0" href="file:///D:\教学\软件项目实践\软件项目实践\文档模板\《投标书》模板.xsn" name="urn:schemas-microsoft-com:office:infopath:-E7V-Qo:" language="zh-cn" productVersion="14.0.0" ?><?mso-application progid="InfoPath.Document"?><投标书 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
-	<首部 项目名称="卡拉OK点歌系统网页版" 项目标识="Z00001" version="1.0">
+	<首部 项目名称="卡拉OK点歌系统网页版" 项目标识="C1209KLok" version="1.0">
 		<状态与版本信息>
 			<文件状态></文件状态>
 			<文件标识></文件标识>
@@ -18,7 +18,7 @@
 			<背景></背景>
 		</引言>
 	</首部>
-	<文件编号>Z00001</文件编号>
+	<文件编号>卡拉OK点歌系统-Tender-v3.0</文件编号>
 	<投标单位>
 		<单位>
 			<名称>海岸国际软件股份有限公司</名称>
@@ -41,12 +41,12 @@
 <div xmlns="http://www.w3.org/1999/xhtml"><span valign="baseline"></span>二 结算方式:</div>
 <div xmlns="http://www.w3.org/1999/xhtml"><span valign="baseline">按主要工程项目的标价承包</span></div></承包方式>
 	<投标工程标价>
-		<总标价>￥<span xmlns="http://www.w3.org/1999/xhtml" style="FONT-SIZE: 10pt"><font face="Times New Roman">205700.00元</font></span></总标价>
-		<单项标价>软件：￥5700元</单项标价><单项标价>硬件：￥96000元</单项标价><单项标价>人员薪金：4000元/人月</单项标价>
+		<总标价>￥309700<font xmlns="http://www.w3.org/1999/xhtml" face="SimSun">元</font></总标价>
+		<单项标价>软件：￥5700元</单项标价><单项标价>硬件：￥96000元</单项标价><单项标价>人员薪金：8000元/人月</单项标价>
 	</投标工程标价>
 	<工程周期>
 		<开工>2012-09-17</开工>
-		<竣工>2013-11-07</竣工>
+		<竣工>2013-11-26</竣工>
 		<总工期>7周</总工期>
 	</工程周期>
 	<工程质量><div xmlns="http://www.w3.org/1999/xhtml">项目质量标准根据用户要求,符合用户标准,并且弄个成功顺利的运行,达到用户最初的愿望</div></工程质量>

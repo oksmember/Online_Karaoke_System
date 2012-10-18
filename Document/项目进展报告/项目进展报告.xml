@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.2" PIVersion="1.0.0.0" href="file:///D:\教学\软件项目实践\软件项目实践\文档模板\《项目进展报告》模板.xsn" name="urn:schemas-microsoft-com:office:infopath:-i-KEU--Qo:" language="zh-cn" productVersion="14.0.0" ?><?mso-application progid="InfoPath.Document"?><项目进展报告 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<首部 项目名称="卡拉ok点歌系统网页版" 项目标识="C1209KLok" version="1.0">
+		<状态与版本信息>
+			<文件状态>正式发布</文件状态>
+			<文件标识>卡拉OK点歌系统-PSR-1.0</文件标识>
+			<当前版本>1.0</当前版本>
+			<作者>
+				<姓名>黄晨</姓名>
+				<学号>2009011275</学号>
+				<团队>小鱼儿</团队>
+			</作者>
+			<完成日期>2012-10-12</完成日期>
+			<版本更新信息>1.0版本为初始版本</版本更新信息>
+		</状态与版本信息>
+		<引言>
+			<使用人员>项目组成员</使用人员>
+			<编写目的>为了清晰的反映出项目的继续，以及期间出现的问题，方便及时地修改计划</编写目的>
+			<背景>应海岸娱乐传媒有限公司的项目需求，开发的卡拉ok点歌系统网页版</背景>
+			<定义与缩写>
+				<术语></术语>
+				<解释></解释>
+			</定义与缩写>
+			<参考资料>
+				<条目>项目开发计划2.0 软件需求说明书2.0</条目>
+			</参考资料>
+		</引言>
+	</首部>
+	<编号>20121012</编号>
+	<项目阶段>需求分析</项目阶段>
+	<项目经理>黄晨</项目经理>
+	<日期>2012-10-12</日期>
+	<项目进展情况>
+		<任务与进度>
+			<计划>完成需求分析报告，并通过审核</计划>
+			<实际情况>2.0版本的软件需求说明书虽已完成却并未完全合格</实际情况>
+		</任务与进度>
+		<费用>
+			<计划>服务器.开发环境软件的购入花费：100000元</计划>
+			<实际情况>按照计划购入了所需硬件以及开发环境软件</实际情况>
+		</费用>
+		<人力资源>
+			<计划>团队由17人组成</计划>
+			<实际情况>经过人员变动，现团队人员数量为14人</实际情况>
+		</人力资源>
+		<软硬件资源>
+			<计划><div xmlns="http://www.w3.org/1999/xhtml">硬件部分：三台服务器，试音设备</div>
+<div xmlns="http://www.w3.org/1999/xhtml">软件部分：MyEclipse10.0 Mysql5.0</div></计划>
+			<实际情况>软硬件设施已全部到位</实际情况>
+		</软硬件资源>
+		<其他>无</其他>
+	</项目进展情况>
+	<问题与对策><div xmlns="http://www.w3.org/1999/xhtml">问题一：软件需求分析说明书并未按照计划时间通过评审</div>
+<div xmlns="http://www.w3.org/1999/xhtml">对策：责令于迪在2012/10/20之前完成修改</div>
+<div xmlns="http://www.w3.org/1999/xhtml">问题二：原计划团队成员为17人组成，经人员变动，现团队由14人组成，人员需重新分工</div>
+<div xmlns="http://www.w3.org/1999/xhtml">对策：新人员分工表</div>
+<div xmlns="http://www.w3.org/1999/xhtml">     </div>
+<div align="center" xmlns="http://www.w3.org/1999/xhtml">
+<table class="MsoNormalTable msoUcTable" style="BORDER-RIGHT: medium none; TABLE-LAYOUT: fixed; BORDER-TOP: medium none; BORDER-LEFT: medium none; WIDTH: 427.5pt; BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse; WORD-WRAP: break-word" tabIndex="-1" cellPadding="0" width="527" border="1">
+<colgroup>
+<col style="WIDTH: 72px"/>
+<col style="WIDTH: 95px"/>
+<col style="WIDTH: 141px"/>
+<col style="WIDTH: 75px"/>
+<col style="WIDTH: 78px"/>
+<col style="WIDTH: 109px"/></colgroup>
+<tbody>
+<tr style="MIN-HEIGHT: 20.25pt">
+<td bgColor="#b3b3b3" style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">人员</font></span><span style="FONT-SIZE: 12pt"></span></div></td>
+<td bgColor="#b3b3b3" style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">管理组</font></span><span style="FONT-SIZE: 12pt"></span></div></td>
+<td bgColor="#b3b3b3" style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">开发组</font></span><span style="FONT-SIZE: 12pt"></span></div></td>
+<td bgColor="#b3b3b3" style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">质保组</font></span><span style="FONT-SIZE: 12pt"></span></div></td>
+<td bgColor="#b3b3b3" style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">配置组</font></span><span style="FONT-SIZE: 12pt"></span></div></td>
+<td bgColor="#b3b3b3" style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">用户组</font></span><span style="FONT-SIZE: 12pt"></span></div></td></tr>
+<tr style="MIN-HEIGHT: 21.25pt">
+<td bgColor="#e6e6e6" style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="center"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">黄晨</font></span><span style="FONT-SIZE: 12pt"></span></div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">项目经理</font></span><span style="FONT-SIZE: 12pt"></span></div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">（兼）</font></span></div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">（兼）</font></span><span style="FONT-SIZE: 12pt"></span></div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td></tr>
+<tr style="MIN-HEIGHT: 20.25pt">
+<td bgColor="#e6e6e6" style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="center"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">唐安杰</font></span><span style="FONT-SIZE: 12pt"></span></div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">（兼）</font></span><span style="FONT-SIZE: 12pt"></span></div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">组长（设计师）</font></span><span style="FONT-SIZE: 12pt"></span></div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td></tr>
+<tr style="MIN-HEIGHT: 20.25pt">
+<td bgColor="#e6e6e6" style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="center"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">史兴盛</font></span><span style="FONT-SIZE: 12pt"></span></div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">（兼）</font></span><span style="FONT-SIZE: 12pt"></span></div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">组长</font></span><span style="FONT-SIZE: 12pt"></span></div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">（兼）</font></span><span style="FONT-SIZE: 12pt"></span></div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td></tr>
+<tr style="MIN-HEIGHT: 21pt">
+<td bgColor="#e6e6e6" style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="center"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">荆榆</font></span><span style="FONT-SIZE: 12pt"></span></div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">（兼）</font></span><span style="FONT-SIZE: 12pt"></span></div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">（兼）</font></span></div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">组长</font></span><span style="FONT-SIZE: 12pt"></span></div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td></tr>
+<tr style="MIN-HEIGHT: 41.5pt">
+<td bgColor="#e6e6e6" style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="center"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">王振</font></span></div>
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="center"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">于迪</font></span></div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">系统分析</font></span></div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td></tr>
+<tr style="MIN-HEIGHT: 21.25pt">
+<td bgColor="#e6e6e6" style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="center"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">付崇武</font></span><span style="FONT-SIZE: 12pt"></span></div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">编程</font></span><span style="FONT-SIZE: 12pt"></span></div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td></tr>
+<tr style="MIN-HEIGHT: 21pt">
+<td bgColor="#e6e6e6" style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="center"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">杨熠波</font></span></div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">编程</font></span><span style="FONT-SIZE: 12pt"></span></div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td></tr>
+<tr style="MIN-HEIGHT: 20.25pt">
+<td bgColor="#e6e6e6" style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="center"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">孙清源</font></span><span style="FONT-SIZE: 12pt"></span></div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">文档撰写</font></span><span style="FONT-SIZE: 12pt"></span></div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td></tr>
+<tr style="MIN-HEIGHT: 41.5pt">
+<td bgColor="#e6e6e6" style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="center"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">常春</font></span></div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">单元测试</font></span><span style="FONT-SIZE: 12pt"></span></div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td></tr>
+<tr style="MIN-HEIGHT: 27pt">
+<td bgColor="#e6e6e6" style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="center"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">李洋</font></span></div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">测试</font></span><span style="FONT-SIZE: 12pt"></span></div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td></tr>
+<tr style="MIN-HEIGHT: 41.5pt">
+<td bgColor="#e6e6e6" style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="center"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">温晨</font></span></div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">测试</font></span><span style="FONT-SIZE: 12pt"></span></div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td></tr>
+<tr style="MIN-HEIGHT: 20.25pt">
+<td bgColor="#e6e6e6" style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="center"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">张斌</font></span><span style="FONT-SIZE: 12pt"></span></div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">文档撰写</font></span><span style="FONT-SIZE: 12pt"></span></div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td></tr>
+<tr style="MIN-HEIGHT: 42.75pt">
+<td bgColor="#e6e6e6" style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="center"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">陈晨</font></span></div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312"></font></span> </div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><font face="Arial Narrow"><span style="FONT-SIZE: 12pt"></span></font> </div></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid; BORDER-TOP: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid">
+<div style="PADDING-RIGHT: 0cm; MARGIN-TOP: 0cm; PADDING-LEFT: 0cm; FONT-SIZE: 16pt; MARGIN-BOTTOM: 0pt" align="justify"><span style="FONT-SIZE: 12pt"><font face="楷体_GB2312">需求评审、测试、验收</font></span><span style="FONT-SIZE: 12pt"></span></div></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></问题与对策>
+	<签字>黄晨</签字>
+</项目进展报告>

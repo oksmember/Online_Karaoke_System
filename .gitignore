@@ -1,10 +1,15 @@
-# Editor's swp Files
+﻿# Editor's swp Files
 *~
 *.swp
 
 # Class  Files
 *.class
 
+# test data
+*.mkv
+*.mp4
+*.rmvb
+*.flv
 
 #################
 ## Eclipse

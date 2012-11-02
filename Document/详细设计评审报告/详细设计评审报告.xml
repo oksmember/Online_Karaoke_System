@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.6" PIVersion="1.0.0.0" href="file:///D:\教学\软件项目实践\网站\公开\教学资源\文档模板\《评审报告》模板.xsn" name="urn:schemas-microsoft-com:office:infopath:-4QU--Qo:" language="zh-cn" productVersion="12.0.0" ?><?mso-application progid="InfoPath.Document"?><评审报告 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<首部 项目名称="卡拉ok点歌系统网页版" 项目标识="C1209KLok" version="1.0">
+		<状态与版本信息>
+			<文件状态>正式发布</文件状态>
+			<文件标识>卡拉OK点歌系统-详细设计评审报告-1.0</文件标识>
+			<当前版本>1.0</当前版本>
+			<作者>
+				<姓名>黄晨</姓名>
+				<学号>2009011275</学号>
+				<团队>小鱼儿</团队>
+			</作者>
+			<完成日期>2012-10-26</完成日期>
+			<版本更新信息>1.0版本为初始版本</版本更新信息>
+		</状态与版本信息>
+	</首部>
+	<标题>详细设计评审报告</标题>
+	<组织名称>小鱼儿团队</组织名称>
+	<评审种类>
+		<阶段评审 阶段名称="详细设计阶段"></阶段评审>
+	</评审种类>
+	<主持人>项目经理黄晨</主持人>
+	<参加人><div xmlns="http://www.w3.org/1999/xhtml">开发组组长唐安杰</div>
+<div xmlns="http://www.w3.org/1999/xhtml">配置组组长荆榆</div>
+<div xmlns="http://www.w3.org/1999/xhtml">质保组组长史兴胜</div>
+<div xmlns="http://www.w3.org/1999/xhtml">详细设计说明书编写人常春、孙清源、于迪</div></参加人>
+	<地点>北京信息科技大学—健翔桥校区-教二403</地点>
+	<日期>2012-10-26</日期>
+	<提交内容>纤细设计评审报告1.0</提交内容>
+	<评审项与结论>
+		<要素>是否正确、完整、一致</要素>
+		<评审结果>文档基本正确，完整度以及一致性很好</评审结果>
+		<问题和对策><div xmlns="http://www.w3.org/1999/xhtml">问题：文档中有很少的几个部分引用错误</div>
+<div xmlns="http://www.w3.org/1999/xhtml">对策：交由荆榆修改</div></问题和对策>
+	<要素>子系统、模块、类划分是否合理</要素><评审结果>子系统、模块、类划分合理，但某些模块设计中的IPO图以及流程图的绘制有不合理的地方</评审结果><问题和对策><div xmlns="http://www.w3.org/1999/xhtml">问题：IPO图以及流程图绘制不合理</div>
+<div xmlns="http://www.w3.org/1999/xhtml">对策：交由荆榆进行修改</div></问题和对策><要素>对概要设计的可追踪性</要素><评审结果>可以很好的对概要设计进行追踪，并且对概要设计中不完善的地方进行了改进</评审结果><问题和对策>无</问题和对策><要素>对结构化设计的符合性</要素><评审结果>文档具有自顶向下、逐步求精、模块化、限制使用goto语句的特点，符合结构化设计的要求</评审结果><问题和对策>无</问题和对策><要素>局部数据结构的合理性</要素><评审结果>整体设计较为完整，但是在一些模块输出的数据格式选定的并不正确</评审结果><问题和对策><div xmlns="http://www.w3.org/1999/xhtml">问题：模块输出的数据格式选定不正确</div>
+<div xmlns="http://www.w3.org/1999/xhtml">对策：交由荆榆修改</div></问题和对策><要素>行文是否通顺易懂</要素><评审结果>文档大意比较清晰，但是对于一些的用词并未进行有效的解释</评审结果><问题和对策><div xmlns="http://www.w3.org/1999/xhtml">问题：用词并未进行有效的解释</div>
+<div xmlns="http://www.w3.org/1999/xhtml">对车：交由荆榆进行修改</div></问题和对策></评审项与结论>
+	<总结><div xmlns="http://www.w3.org/1999/xhtml">评审结果：未通过评审</div>
+<div xmlns="http://www.w3.org/1999/xhtml">文档大体上比较完善，但是细节方面还有待修改，现交由荆榆进行修改，并要求于10.29日之前完成修改，并提交。</div></总结>
+	<签字>黄晨</签字>
+	<附件>
+		<其他材料>无</其他材料>
+		<评审记录><div xmlns="http://www.w3.org/1999/xhtml">时间：10.28</div>
+<div xmlns="http://www.w3.org/1999/xhtml">地点：北京信息科技俄大学-健翔桥校区-教二403</div>
+<div xmlns="http://www.w3.org/1999/xhtml">主持人：黄晨</div>
+<div xmlns="http://www.w3.org/1999/xhtml">参与人：开发组组长唐安杰、配置组组长荆榆、质保组组长史兴胜、详细设计说明书编写人常春、孙清源、于迪</div>
+<div xmlns="http://www.w3.org/1999/xhtml">记录：</div>
+<div xmlns="http://www.w3.org/1999/xhtml">唐安杰提出：</div>
+<div xmlns="http://www.w3.org/1999/xhtml">1.文档中的IPO图和流程图大体上正确，但是有个别的几个图的绘制存在不正确。例如控制模块部分的流程图，逻辑关系不正确。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">2.一些模块的输出数据的格式定义的不准确。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">史兴盛提出：</div>
+<div xmlns="http://www.w3.org/1999/xhtml">文档中有引用上下文出现偏差的现象</div>
+<div xmlns="http://www.w3.org/1999/xhtml">黄晨提出：</div>
+<div xmlns="http://www.w3.org/1999/xhtml">文档用词并没有进行有效的解释，文档大意比较清楚，但是由于个别词并未给出解释，有些部分阅读起来并不是很容易理解。</div></评审记录>
+	</附件>
+</评审报告>

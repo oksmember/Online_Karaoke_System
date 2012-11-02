@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+	"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>  
+	<!-- 通用配置 -->
+	<package name="klok" extends="struts-default" namespace="/">
+		<action name="*_*" method="{2}" class="com.klok.action.{1}Action">
+			<result name="dynamic">${dynamicUrl}</result>
+			<result name="myredirect" type="redirect">${dynamicUrl}</result>
+		</action>
+	</package>
+	<!-- ajax应用 
+	<package name="ajax" extends="json-default" namespace="/">
+		<action name="check" method="checkName" class="com.dzxc.action.UserAction">
+			<result name="ajax" type="json"></result>
+		</action>
+	</package>-->
+</struts>

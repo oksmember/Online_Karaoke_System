@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="Kl_Ok"
+  id="myeclipse.1351486152775"
+  context-root="/Kl_Ok"
+  j2ee-spec="6.0"
+  archive="Kl_Ok.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

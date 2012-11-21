@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.9" PIVersion="1.0.0.0" href="file:///D:\教学\软件项目实践\软件项目实践\文档模板\《用户手册》模板.xsn" name="urn:schemas-microsoft-com:office:infopath:-Xg---Qo:" language="zh-cn" productVersion="14.0.0" ?><?mso-application progid="InfoPath.Document"?><用户手册 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<首部 项目名称="卡拉OK点歌系统网页版" 项目标识="C1209KLok" version="1.0">
+		<状态与版本信息>
+			<文件状态>正式发布</文件状态>
+			<文件标识>卡拉OK点歌系统-UG-1.0</文件标识>
+			<当前版本>1.0</当前版本>
+			<作者>
+				<姓名>付崇武 杨熠波</姓名>
+				<学号>2009011280 2009011287</学号>
+				<团队>小鱼儿</团队>
+			</作者>
+			<完成日期>2012-11-02</完成日期>
+			<版本更新信息><div xmlns="http://www.w3.org/1999/xhtml">当前文档版本为1.0版本，由付崇武，杨熠波编写并发布。</div></版本更新信息>
+		</状态与版本信息>
+		<引言>
+			<使用人员><font size="3" xmlns="http://www.w3.org/1999/xhtml">项目需求方</font></使用人员>
+			<编写目的>提供给使用本软件的用户本软件的使用方法和注意事项。</编写目的>
+			<背景>本团队开发软件为卡拉OK点歌系统网页版。本项目开发团队为小鱼儿，用户为<span style="FONT-SIZE: 10.5pt" xmlns="http://www.w3.org/1999/xhtml"><font face="宋体">海岸娱乐有限公司消费者、<span style="FONT-SIZE: 10.5pt"><font face="宋体">服务人员、管理者、系统维护人员。本团队开发的卡拉OK点歌系统网页版是基于Internet和windows得以实现软件功能。</font></span></font></span></背景>
+			<定义与缩写>
+				
+			<术语>卡拉ok</术语><解释>其中“卡拉”是“空” ，起源于日本。</解释><术语>点歌</术语><解释>意为选择一首想要唱的歌曲</解释><术语>榜单</术语><解释>通过网络收集的信息按照受欢迎程度排列出的歌曲排名</解释></定义与缩写>
+			<参考资料>
+				<条目>需求分析说明书2.0</条目><条目>概要设计说明书2.0</条目><条目>详细设计说明书2.0</条目>
+			</参考资料>
+		</引言>
+	</首部>
+	<用途>
+		<功能><div xmlns="http://www.w3.org/1999/xhtml">2.1.1 用户模块（支持10000位用户同时在线进行点歌等操作的实现）</div>
+<div xmlns="http://www.w3.org/1999/xhtml">搜歌，点歌，切歌，删除已点曲目以及插歌功能。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">榜单点击量统计功能。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">播放视频，歌词同步显示功能。</div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml">2.1.2 管理模块（本模块支持不大于10位管理员同时对曲目进行增删改查操作）</div>
+<div xmlns="http://www.w3.org/1999/xhtml">添加曲目信息，删除曲目信息，修改曲目信息，查询曲目信息。</div></功能>
+		<性能>
+			<精度><div xmlns="http://www.w3.org/1999/xhtml">最高曲库容量：30000</div>
+<div xmlns="http://www.w3.org/1999/xhtml">单曲数据量：40Mb±10Mb</div>
+<div xmlns="http://www.w3.org/1999/xhtml">搜歌输入最大字符：50</div></精度>
+			<时间特性><div xmlns="http://www.w3.org/1999/xhtml">系统响应时间：60秒。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">更新处理时间：60秒。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">数据的转换和传送时间：30秒。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">搜歌响应时间：0.5秒<br/>点歌响应时间：0.5秒<br/>删除已选歌曲响应时间：0.5秒<br/>查看榜单响应时间：1秒<br/>声音大小调节响应时间：0.5秒</div></时间特性>
+			<灵活性>本软件支持各种支持flash10.0以上版本播放的浏览器所在的硬件设备，如：智能手机，平板电脑，个人PC机等。</灵活性>
+		</性能>
+		<安全保密><div xmlns="http://www.w3.org/1999/xhtml">本系统有自己的独立曲库，想访问曲库需要有管理权限。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">VIP用户信息由使用本软件公司自主管理。</div></安全保密>
+	</用途>
+	<运行环境>
+		<硬件设备><div xmlns="http://www.w3.org/1999/xhtml">运行该软件系统所需要的硬设备包括服务器和客户机，要求满足（最低配置）：<br/><strong>1</strong>.P4 2G Hz 以上处理器，内存不少于2G。 <br/><strong>2</strong>.150G以上硬盘空间，并设有备份盘。<br/><strong>3</strong>.Mysql5.0.8数据库。<br/><strong>4</strong>.网络结构建议采用10/100/1000 MB ETHERNET网络的网络拓扑结构。<br/><strong>5</strong>.windows 7/vista/xp</div></硬件设备>
+		<支持软件><div xmlns="http://www.w3.org/1999/xhtml"><span style="DISPLAY: inline! important; FLOAT: none; TEXT-TRANSFORM: none; FONT-VARIANT: normal; WIDOWS: 2; ORPHANS: 2; webkit-text-size-adjust: none; webkit-text-stroke-width: 0px">服务器端：本软件需要Tomcat 服务器、Mysql 数据库、JDK 和JDBC 驱动支持。本软件需要通过Tomcat 服务器实现网站页面的正确显示；通过JDBC 驱动链接SQL 数据库，实现网站页面与数据库数据之前的交互；需要JDK，支持页面中的JAVA 技术。 </span></div>
+<div xmlns="http://www.w3.org/1999/xhtml"><span style="DISPLAY: inline! important; FLOAT: none; TEXT-TRANSFORM: none; FONT-VARIANT: normal; WIDOWS: 2; ORPHANS: 2; webkit-text-size-adjust: none; webkit-text-stroke-width: 0px"></span> </div>
+<div xmlns="http://www.w3.org/1999/xhtml"><span style="DISPLAY: inline! important; FLOAT: none; TEXT-TRANSFORM: none; FONT-VARIANT: normal; WIDOWS: 2; ORPHANS: 2; webkit-text-size-adjust: none; webkit-text-stroke-width: 0px">客户端：无需特殊的需要支持的软件，只需要安装浏览器即可。</span></div></支持软件>
+		<数据结构><div xmlns="http://www.w3.org/1999/xhtml">（1）管理员用户表</div>
+<div xmlns="http://www.w3.org/1999/xhtml">用户名</div>
+<div xmlns="http://www.w3.org/1999/xhtml">密码</div>
+<div xmlns="http://www.w3.org/1999/xhtml">（2）会员用户表</div>
+<div xmlns="http://www.w3.org/1999/xhtml">用户名（主键）</div>
+<div xmlns="http://www.w3.org/1999/xhtml">昵称</div>
+<div xmlns="http://www.w3.org/1999/xhtml">密码</div>
+<div xmlns="http://www.w3.org/1999/xhtml">邮箱</div>
+<div xmlns="http://www.w3.org/1999/xhtml">注册<font face="SimSun">日期</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml">用户级别（注：分普通用户、vip用户，若没有登录则是游客）</div>
+<div xmlns="http://www.w3.org/1999/xhtml">（3）曲库表</div>
+<div xmlns="http://www.w3.org/1999/xhtml">编号（主键）</div>
+<div xmlns="http://www.w3.org/1999/xhtml">曲名</div>
+<div xmlns="http://www.w3.org/1999/xhtml">歌手</div>
+<div xmlns="http://www.w3.org/1999/xhtml">点击量</div>
+<div xmlns="http://www.w3.org/1999/xhtml">曲目类型（注：曲目类型表示可用用户，游客，普通用户，vip可使用的曲库是不一样的，由此字段区分）</div>
+<div xmlns="http://www.w3.org/1999/xhtml">（4）会员点歌信息表<font face="SimSun">：</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font face="SimSun">用户名</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font face="SimSun">歌曲编号（用户名+歌曲编号作为联合主键）</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font face="SimSun">播放序号</font></div></数据结构>
+	</运行环境>
+	<使用过程>
+		<安装与初始化>本系统为网页版，不需要安装与初始化</安装与初始化>
+		<使用流程和操作步骤>
+			<说明>本软件分为用户端和管理端，分别用于用户使用和内部人员管理。用户端分普通用户端和高级用户端，高级用户具有所读取的曲库更加具有实时性，音效更清晰等功能。高级用户需注册。</说明>
+			<子系统使用流程和操作步骤><div xmlns="http://www.w3.org/1999/xhtml">用户端：</div>
+<div xmlns="http://www.w3.org/1999/xhtml">1.登陆主页：输入网址登录本系统主页。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">2.进入系统：点击右上角“点击进入”，进入电子点歌系统</div>
+<div xmlns="http://www.w3.org/1999/xhtml">3.用户登录（已经为本系统高级会员的用户可以直接登录，非高级会员用户不用登陆）：点击界面右上角“登录”按钮，输入用户名密码，并点击“登录”。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">4.搜索歌曲：在界面右方输入框内输入曲名、歌手或者专辑，并在下方选中相应选项，点击“搜索”，搜索栏下方区域刷新为“歌曲列表”搜索结果将在其中显示。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">5.歌曲添加：在歌曲列表中选择歌曲并点击“添加”，歌曲将添加到已选歌曲最后。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">6.歌曲插歌：在歌曲列表中选择歌曲并点击“插歌”，歌曲将添加到已选歌曲当前播放的下一首。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">7.播放列表：点击界面右上方“播放/选歌列表”，搜索栏下方刷新为“已选曲目”，显示已经选中的曲目。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">8.歌曲播放：在“已选曲目”列表中点击“播放”按钮，播放歌曲。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">9.歌曲删除：在“已选曲目”列表中点击“删除”按钮，删除已选歌曲。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">10.用户退出（非高级会员不用退出）：用户在用完本系统之后可点击“登出”按钮，退出程序。</div></子系统使用流程和操作步骤>
+		<子系统使用流程和操作步骤><div xmlns="http://www.w3.org/1999/xhtml">管理端：</div>
+<div xmlns="http://www.w3.org/1999/xhtml">
+<div>1.登陆主页：输入网址登录本系统主页。</div>
+<div>2.用户登录：输入管理员名密码，并点击“登录”。</div>
+<div>3.添加歌曲：点击“添加歌曲”按钮，进入添加歌曲信息界面；输入“曲目名称”、“曲目歌手”、“曲目专辑”、“制作公司”、“发行年份”；点击“上传视频”框下的“Upload”按钮，选择相应视频（上传视频文件需为MP4或FLV格式文件，并且单个文件不得超过100M）点击“打开按钮”；点击“上传歌词”框下的“Upload”按钮，选择相应文件（上传歌词需为LRC文件并且单个文件不得超过100M）点击“打开按钮”；选择会员标示“非会员”或者“会员”；点击“提交歌曲信息”完成添加（上传文件将自动更改名称为上传日期以及时间）。</div>
+<div>4.歌曲修改：点击歌曲列表选择相应歌曲中“操作”栏下的“修改”按钮，进入修改界面，选择相应信息修改，并点击“修改”按钮完成修改。</div>
+<div>5.歌曲删除：点击歌曲列表选择相应歌曲中“操作”栏下的“删除”按钮完成修改。</div></div></子系统使用流程和操作步骤></使用流程和操作步骤>
+		<出错处理和恢复><div xmlns="http://www.w3.org/1999/xhtml">连接出现异常：弹出窗口提示连接异常。如出现连接异常，自动切换得到备用服务器进行网络通信。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">出现歌曲信息错误或丢失，用户资料丢失。启用备份数据服务器进行查询。</div></出错处理和恢复>
+	</使用过程>
+</用户手册>

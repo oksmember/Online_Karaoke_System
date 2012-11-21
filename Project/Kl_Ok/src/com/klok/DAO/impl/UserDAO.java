@@ -34,10 +34,6 @@ public class UserDAO extends HibernateDaoSupport implements IUserDAO {
 		// do nothing
 	}
 
-	/* (non-Javadoc)
-	 * @see com.klok.DAO.impl.IUserDAO#save(com.klok.entity.User)
-	 */
-	@Override
 	public void save(User transientInstance) {
 		log.debug("saving User instance");
 		try {
@@ -49,10 +45,6 @@ public class UserDAO extends HibernateDaoSupport implements IUserDAO {
 		}
 	}
 
-	/* (non-Javadoc)
-	 * @see com.klok.DAO.impl.IUserDAO#delete(com.klok.entity.User)
-	 */
-	@Override
 	public void delete(User persistentInstance) {
 		log.debug("deleting User instance");
 		try {
@@ -64,10 +56,6 @@ public class UserDAO extends HibernateDaoSupport implements IUserDAO {
 		}
 	}
 
-	/* (non-Javadoc)
-	 * @see com.klok.DAO.impl.IUserDAO#findById(java.lang.Integer)
-	 */
-	@Override
 	public User findById(java.lang.Integer id) {
 		log.debug("getting User instance with id: " + id);
 		try {
@@ -80,10 +68,6 @@ public class UserDAO extends HibernateDaoSupport implements IUserDAO {
 		}
 	}
 
-	/* (non-Javadoc)
-	 * @see com.klok.DAO.impl.IUserDAO#findByExample(com.klok.entity.User)
-	 */
-	@Override
 	public List findByExample(User instance) {
 		log.debug("finding User instance by example");
 		try {
@@ -97,10 +81,6 @@ public class UserDAO extends HibernateDaoSupport implements IUserDAO {
 		}
 	}
 
-	/* (non-Javadoc)
-	 * @see com.klok.DAO.impl.IUserDAO#findByProperty(java.lang.String, java.lang.Object)
-	 */
-	@Override
 	public List findByProperty(String propertyName, Object value) {
 		log.debug("finding User instance with property: " + propertyName
 				+ ", value: " + value);
@@ -114,34 +94,18 @@ public class UserDAO extends HibernateDaoSupport implements IUserDAO {
 		}
 	}
 
-	/* (non-Javadoc)
-	 * @see com.klok.DAO.impl.IUserDAO#findByUname(java.lang.Object)
-	 */
-	@Override
 	public List findByUname(Object uname) {
 		return findByProperty(UNAME, uname);
 	}
 
-	/* (non-Javadoc)
-	 * @see com.klok.DAO.impl.IUserDAO#findByUpwd(java.lang.Object)
-	 */
-	@Override
 	public List findByUpwd(Object upwd) {
 		return findByProperty(UPWD, upwd);
 	}
 
-	/* (non-Javadoc)
-	 * @see com.klok.DAO.impl.IUserDAO#findByAflag(java.lang.Object)
-	 */
-	@Override
 	public List findByAflag(Object aflag) {
 		return findByProperty(AFLAG, aflag);
 	}
 
-	/* (non-Javadoc)
-	 * @see com.klok.DAO.impl.IUserDAO#findAll()
-	 */
-	@Override
 	public List findAll() {
 		log.debug("finding all User instances");
 		try {
@@ -153,10 +117,6 @@ public class UserDAO extends HibernateDaoSupport implements IUserDAO {
 		}
 	}
 
-	/* (non-Javadoc)
-	 * @see com.klok.DAO.impl.IUserDAO#merge(com.klok.entity.User)
-	 */
-	@Override
 	public User merge(User detachedInstance) {
 		log.debug("merging User instance");
 		try {
@@ -169,10 +129,6 @@ public class UserDAO extends HibernateDaoSupport implements IUserDAO {
 		}
 	}
 
-	/* (non-Javadoc)
-	 * @see com.klok.DAO.impl.IUserDAO#attachDirty(com.klok.entity.User)
-	 */
-	@Override
 	public void attachDirty(User instance) {
 		log.debug("attaching dirty User instance");
 		try {
@@ -184,10 +140,6 @@ public class UserDAO extends HibernateDaoSupport implements IUserDAO {
 		}
 	}
 
-	/* (non-Javadoc)
-	 * @see com.klok.DAO.impl.IUserDAO#attachClean(com.klok.entity.User)
-	 */
-	@Override
 	public void attachClean(User instance) {
 		log.debug("attaching clean User instance");
 		try {
@@ -199,7 +151,7 @@ public class UserDAO extends HibernateDaoSupport implements IUserDAO {
 		}
 	}
 
-	public static IUserDAO getFromApplicationContext(ApplicationContext ctx) {
-		return (IUserDAO) ctx.getBean("UserDAO");
+	public static UserDAO getFromApplicationContext(ApplicationContext ctx) {
+		return (UserDAO) ctx.getBean("UserDAO");
 	}
 }

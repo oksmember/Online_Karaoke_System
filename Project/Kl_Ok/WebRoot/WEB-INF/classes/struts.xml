@@ -3,6 +3,13 @@
 	"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
 	"http://struts.apache.org/dtds/struts-2.0.dtd">
 <struts>  
+	
+	<!-- 配置struts2.1.8 上传是文件的最大限制为100M -->
+	<constant name="struts.multipart.maxSize" value="104857600" />
+	
+	<!-- 设置struts2 上传文件时  保存的临时目录 -->
+	<constant name="struts.multipart.saveDir" value="/temp"></constant>
+
 	<!-- 通用配置 -->
 	<package name="klok" extends="struts-default" namespace="/">
 		<action name="*_*" method="{2}" class="com.klok.action.{1}Action">
@@ -10,10 +17,13 @@
 			<result name="myredirect" type="redirect">${dynamicUrl}</result>
 		</action>
 	</package>
-	<!-- ajax应用 
+	<!-- ajax应用 -->
 	<package name="ajax" extends="json-default" namespace="/">
-		<action name="check" method="checkName" class="com.dzxc.action.UserAction">
+		<action name="addToList" method="addToList" class="com.klok.action.UlistAction">
 			<result name="ajax" type="json"></result>
 		</action>
-	</package>-->
+		<action name="upToList" method="upToList" class="com.klok.action.UlistAction">
+			<result name="ajax" type="json"></result>
+		</action>
+	</package>
 </struts>

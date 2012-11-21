@@ -8,21 +8,25 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 /**
  * 此类用来解析LRC文件 将解析完整的LRC文件放入一个LrcInfo对象中 并且返回这个LrcInfo对象s author:java_mzd
  */
 public class LrcParser {
-	private static LrcInfo lrcinfo = new LrcInfo();
+	private final Logger log = LoggerFactory.getLogger(LrcParser.class);
+	
+	private LrcInfo lrcinfo = new LrcInfo();
 
-	private static long currentTime = 0;//存放临时时间
-	private static String currentContent = null;//存放临时歌词
-	private static List<Double> time=new ArrayList<Double>();
-	private static List<String> lrc=new ArrayList<String>();
+	private long currentTime = 0;//存放临时时间
+	private String currentContent = null;//存放临时歌词
+	private List<Double> time=new ArrayList<Double>();
+	private List<String> lrc=new ArrayList<String>();
 	/**
 	 * 根据文件路径，读取文件，返回一个输入流
 	 * 
@@ -31,12 +35,12 @@ public class LrcParser {
 	 * @return 输入流
 	 * @throws FileNotFoundException
 	 */
-	private static InputStream readLrcFile(String path) throws FileNotFoundException {
+	private InputStream readLrcFile(String path) throws FileNotFoundException {
 		File f = new File(path);
 		InputStream ins = new FileInputStream(f);
 		return ins;
 	}
-	public static LrcInfo parser(String path) throws Exception {
+	public LrcInfo parser(String path) throws Exception {
 		InputStream in = readLrcFile(path);
 		lrcinfo = parser(in);
 		return lrcinfo;
@@ -50,7 +54,7 @@ public class LrcParser {
 	 * @return 解析好的LrcInfo对象
 	 * @throws IOException
 	 */
-	public static LrcInfo parser(InputStream inputStream) throws IOException {
+	public LrcInfo parser(InputStream inputStream) throws IOException {
 		// 三层包装
 		InputStreamReader inr = new InputStreamReader(inputStream,"UTF-8");
 		BufferedReader reader = new BufferedReader(inr);
@@ -70,22 +74,22 @@ public class LrcParser {
 	 * 
 	 * @param str
 	 */
-	private static void parserLine(String str) {
+	private void parserLine(String str) {
 		// 取得歌曲名信息
 		if (str.startsWith("[ti:")) {
 			String title = str.substring(4, str.length() - 1);
-			System.out.println("title--->" + title);
 			lrcinfo.setTitle(title);
+			log.info("title--->" + title);
 		}// 取得歌手信息
 		else if (str.startsWith("[ar:")) {
 			String singer = str.substring(4, str.length() - 1);
-			System.out.println("singer--->" + singer);
 			lrcinfo.setSinger(singer);
+			log.info("singer--->" + singer);
 		}// 取得专辑信息
 		else if (str.startsWith("[al:")) {
 			String album = str.substring(4, str.length() - 1);
-			System.out.println("album--->" + album);
 			lrcinfo.setAlbum(album);
+			log.info("album--->" + album);
 		}// 通过正则取得每句歌词信息
 		else {
 			// 设置正则规则
@@ -122,13 +126,12 @@ public class LrcParser {
 				}
 				if (content.length == 0) {
 					// 将内容设置为当前内容
-					currentContent = "";
+					currentContent = "......";
 				}
 				// 设置时间点和内容的映射
 				time.add((double) currentTime/1000);
-				lrc.add("'"+currentContent+"'");
-				System.out.println("put---currentTime--->" + (double) currentTime/1000
-						+ "----currentContent---->" + currentContent);
+				lrc.add("\""+currentContent+"\"");
+				log.info("put---currentTime--->" + (double) currentTime/1000 + "----currentContent---->" + currentContent);
 			}
 		}
 	}
@@ -158,6 +161,5 @@ public class LrcParser {
 			System.out.println("parser erro");
 			e.printStackTrace();
 		}
-
 	}
 }

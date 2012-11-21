@@ -24,17 +24,13 @@ import com.klok.entity.Ulist;
 
 public class UlistDAO extends HibernateDaoSupport implements IUlistDAO {
 	private static final Logger log = LoggerFactory.getLogger(UlistDAO.class);
-
 	// property constants
+	public static final String NO = "no";
 
 	protected void initDao() {
 		// do nothing
 	}
 
-	/* (non-Javadoc)
-	 * @see com.klok.DAO.impl.IUlistDAO#save(com.klok.entity.Ulist)
-	 */
-	@Override
 	public void save(Ulist transientInstance) {
 		log.debug("saving Ulist instance");
 		try {
@@ -46,10 +42,6 @@ public class UlistDAO extends HibernateDaoSupport implements IUlistDAO {
 		}
 	}
 
-	/* (non-Javadoc)
-	 * @see com.klok.DAO.impl.IUlistDAO#delete(com.klok.entity.Ulist)
-	 */
-	@Override
 	public void delete(Ulist persistentInstance) {
 		log.debug("deleting Ulist instance");
 		try {
@@ -61,10 +53,6 @@ public class UlistDAO extends HibernateDaoSupport implements IUlistDAO {
 		}
 	}
 
-	/* (non-Javadoc)
-	 * @see com.klok.DAO.impl.IUlistDAO#findById(java.lang.Integer)
-	 */
-	@Override
 	public Ulist findById(java.lang.Integer id) {
 		log.debug("getting Ulist instance with id: " + id);
 		try {
@@ -77,10 +65,6 @@ public class UlistDAO extends HibernateDaoSupport implements IUlistDAO {
 		}
 	}
 
-	/* (non-Javadoc)
-	 * @see com.klok.DAO.impl.IUlistDAO#findByExample(com.klok.entity.Ulist)
-	 */
-	@Override
 	public List findByExample(Ulist instance) {
 		log.debug("finding Ulist instance by example");
 		try {
@@ -94,16 +78,12 @@ public class UlistDAO extends HibernateDaoSupport implements IUlistDAO {
 		}
 	}
 
-	/* (non-Javadoc)
-	 * @see com.klok.DAO.impl.IUlistDAO#findByProperty(java.lang.String, java.lang.Object)
-	 */
-	@Override
 	public List findByProperty(String propertyName, Object value) {
-		log.debug("finding Ulist instance with property: " + propertyName
+		log.info("finding Ulist instance with property: " + propertyName
 				+ ", value: " + value);
 		try {
 			String queryString = "from Ulist as model where model."
-					+ propertyName + "= ?";
+					+ propertyName + "= ? order by model.no";
 			return getHibernateTemplate().find(queryString, value);
 		} catch (RuntimeException re) {
 			log.error("find by property name failed", re);
@@ -111,10 +91,10 @@ public class UlistDAO extends HibernateDaoSupport implements IUlistDAO {
 		}
 	}
 
-	/* (non-Javadoc)
-	 * @see com.klok.DAO.impl.IUlistDAO#findAll()
-	 */
-	@Override
+	public List findByNo(Object no) {
+		return findByProperty(NO, no);
+	}
+
 	public List findAll() {
 		log.debug("finding all Ulist instances");
 		try {
@@ -126,10 +106,6 @@ public class UlistDAO extends HibernateDaoSupport implements IUlistDAO {
 		}
 	}
 
-	/* (non-Javadoc)
-	 * @see com.klok.DAO.impl.IUlistDAO#merge(com.klok.entity.Ulist)
-	 */
-	@Override
 	public Ulist merge(Ulist detachedInstance) {
 		log.debug("merging Ulist instance");
 		try {
@@ -143,10 +119,6 @@ public class UlistDAO extends HibernateDaoSupport implements IUlistDAO {
 		}
 	}
 
-	/* (non-Javadoc)
-	 * @see com.klok.DAO.impl.IUlistDAO#attachDirty(com.klok.entity.Ulist)
-	 */
-	@Override
 	public void attachDirty(Ulist instance) {
 		log.debug("attaching dirty Ulist instance");
 		try {
@@ -158,10 +130,6 @@ public class UlistDAO extends HibernateDaoSupport implements IUlistDAO {
 		}
 	}
 
-	/* (non-Javadoc)
-	 * @see com.klok.DAO.impl.IUlistDAO#attachClean(com.klok.entity.Ulist)
-	 */
-	@Override
 	public void attachClean(Ulist instance) {
 		log.debug("attaching clean Ulist instance");
 		try {
@@ -173,7 +141,7 @@ public class UlistDAO extends HibernateDaoSupport implements IUlistDAO {
 		}
 	}
 
-	public static IUlistDAO getFromApplicationContext(ApplicationContext ctx) {
-		return (IUlistDAO) ctx.getBean("UlistDAO");
+	public static UlistDAO getFromApplicationContext(ApplicationContext ctx) {
+		return (UlistDAO) ctx.getBean("UlistDAO");
 	}
 }

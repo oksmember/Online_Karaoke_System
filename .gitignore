@@ -16,7 +16,7 @@
 #################
 
 *.pydevproject
-.project
+#.project
 .metadata
 bin/
 tmp/
@@ -25,9 +25,9 @@ tmp/
 *.swp
 *~.nib
 local.properties
-.classpath
+#.classpath
 .settings/
-.loadpath
+#.loadpath
 
 # External tool builders
 .externalToolBuilders/

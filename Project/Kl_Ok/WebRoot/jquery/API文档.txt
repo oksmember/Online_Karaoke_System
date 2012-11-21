@@ -1,0 +1,3 @@
+http://docs.jquery.com/
+
+中文版：http://jquery-api-zh-cn.googlecode.com/svn/trunk/index.html

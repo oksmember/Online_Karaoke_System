@@ -11,6 +11,7 @@ public class Ulist implements java.io.Serializable {
 	private Integer lid;
 	private User user;
 	private Music music;
+	private Integer no;
 
 	// Constructors
 
@@ -19,9 +20,10 @@ public class Ulist implements java.io.Serializable {
 	}
 
 	/** full constructor */
-	public Ulist(User user, Music music) {
+	public Ulist(User user, Music music, Integer no) {
 		this.user = user;
 		this.music = music;
+		this.no = no;
 	}
 
 	// Property accessors
@@ -48,6 +50,14 @@ public class Ulist implements java.io.Serializable {
 
 	public void setMusic(Music music) {
 		this.music = music;
+	}
+
+	public Integer getNo() {
+		return this.no;
+	}
+
+	public void setNo(Integer no) {
+		this.no = no;
 	}
 
 }

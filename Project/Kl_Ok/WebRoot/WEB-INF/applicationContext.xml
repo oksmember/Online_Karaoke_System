@@ -32,8 +32,7 @@
 				<value>com/klok/entity/Music.hbm.xml</value>
 				<value>com/klok/entity/User.hbm.xml</value>
 				<value>com/klok/entity/Detail.hbm.xml</value>
-				<value>com/klok/entity/Ulist.hbm.xml</value>
-			</list>
+				<value>com/klok/entity/Ulist.hbm.xml</value></list>
 		</property>
 	</bean>
 	
@@ -129,5 +128,4 @@
 		<property name="ulistDAO">
 			<ref bean="UlistDAO" />
 		</property>
-	</bean>
-</beans>
+	</bean></beans>

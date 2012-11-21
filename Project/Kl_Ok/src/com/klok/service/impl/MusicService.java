@@ -19,5 +19,38 @@ public class MusicService extends BaseService implements IMusicService {
 		// TODO Auto-generated method stub
 		return this.getMusicDAO().findById(id);
 	}
+
+	@Override
+	public List getMusic(int flag, String search) {
+		// TODO Auto-generated method stub
+		switch(flag){
+		case 1:
+			return this.getMusicDAO().findByMname(search);
+		case 2:
+			return this.getMusicDAO().findByMart(search);
+		case 3:
+			return this.getMusicDAO().findByMaum(search);
+		default:
+			return null;
+		}
+	}
+
+	@Override
+	public void saveMusic(Music music) {
+		// TODO Auto-generated method stub
+		this.getMusicDAO().save(music);
+	}
+
+	@Override
+	public void changeMusic(Music music) {
+		// TODO Auto-generated method stub
+		this.getMusicDAO().merge(music);
+	}
+
+	@Override
+	public void deleteMusic(Music music) {
+		// TODO Auto-generated method stub
+		this.getMusicDAO().delete(music);
+	}
 	
 }

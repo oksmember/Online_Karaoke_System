@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.2" PIVersion="1.0.0.0" href="file:///D:\教学\软件项目实践\软件项目实践\文档模板\《测试报告》模板.xsn" name="urn:schemas-microsoft-com:office:infopath:--EU--Qo:" language="zh-cn" productVersion="14.0.0" ?><?mso-application progid="InfoPath.Document"?><测试报告 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<首部 项目名称="网络KTV点歌系统网页版" 项目标识="CKLok1209" version="1.0">
+		<状态与版本信息>
+			<文件状态>正式发布</文件状态>
+			<文件标识>卡拉OK点歌系统-STR-1.0</文件标识>
+			<当前版本>1.0</当前版本>
+			<作者>
+				<姓名>史兴胜 李洋 温晨 陈晨</姓名>
+				<学号>2009011285 2009011273 2009011279 2009011271</学号>
+				<团队>小鱼儿</团队>
+			</作者>
+			<完成日期>2012-11-10</完成日期>
+			<版本更新信息>1.0版本为初始版本</版本更新信息>
+		</状态与版本信息>
+		<引言>
+			<使用人员>由测试组人员使用</使用人员>
+			<编写目的>编写本测试计划的目的是为整个测试阶段的管理工作和技术工作提供指南；同时确定测试的内容和范围，为评价系统提供依据；此外还帮助用户安排测试活动，说明对设备器材和机构人员的资源需求；说明测试结果的评价指标。</编写目的>
+			<背景>本测试计划所属KTV点歌系统、要求简单易用。</背景>
+			<定义与缩写>
+				<术语>无</术语>
+				<解释></解释>
+			</定义与缩写>
+			<参考资料>
+				<条目>《概要设计说明书》2.0 </条目><条目>《软件需求说明书》2.0 </条目><条目>《详细设计说明书》2.0</条目><条目>《测试计划》1.0</条目><条目>《测试案例》1.0</条目>
+			</参考资料>
+		</引言>
+	</首部>
+	<测试概要>
+		<测试用例设计><div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">对卡拉ok点歌系统网页版进行测试，以便及时发现并更正系统中存在的bug（缺陷）、error（错误）及处理所有的exception（异常）。通过测试验证本系统已经达到设计和评审指标，用以期待本系统顺利的交付使用。</font></div></测试用例设计>
+		<测试环境与配置>
+			<硬件环境>计算机 键盘 鼠标 麦克风 音响 测试用服务器</硬件环境>
+			<软件环境><font xmlns="http://www.w3.org/1999/xhtml" style="BACKGROUND-COLOR: #fff" face="Arial">LINUX7.0,ApachePHPMysql服务器,100M局域网</font></软件环境>
+		</测试环境与配置>
+		<测试方法和工具><div xmlns="http://www.w3.org/1999/xhtml"><font style="BACKGROUND-COLOR: #fff" face="Arial" xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">主要采用手动测试，压力测试和性能测试采用自动化工具测试。</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font style="BACKGROUND-COLOR: #fff" face="Arial" xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">测试工具：AutoRunner、</font><font face="Arial">WebCt</font></div></测试方法和工具>
+	</测试概要>
+	<测试结果>
+		<测试执行情况与记录><div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1.测试组织： </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; WIDTH: 384px" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 173px"/>
+<col style="WIDTH: 211px"/></colgroup>
+<tbody vAlign="top">
+<tr>
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">测试组</font></div></td>
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">人员</font></div></td></tr>
+<tr>
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">测试经理</font></div></td>
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">史兴胜</font></div></td></tr>
+<tr>
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">测试设计</font></div></td>
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">杨熠波</font></div></td></tr>
+<tr>
+<td style="BORDER-TOP-COLOR: ; BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">功能测试执行</font></div></td>
+<td style="BORDER-TOP-COLOR: ; BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">陈晨、张斌、史兴胜</font></div></td></tr>
+<tr>
+<td style="BORDER-TOP-COLOR: ">
+<div><font size="2" face="宋体">性能测试执行</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div><font size="2" face="宋体">李洋、温晨、张斌 </font></div></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2.测试时间：</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">实际开始时间--结束时间：2012/10/24---2012/11/10</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">总工时：105小时</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">    任务               开始时间               结束时间              总计</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<table tabIndex="-1" title="" class="xdRepeatingTable msoUcTable CTRL65" style="BORDER-TOP-STYLE: none; WORD-WRAP: break-word; BORDER-LEFT-STYLE: none; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 612px" border="1">
+<colgroup>
+<col style="WIDTH: 153px"/>
+<col style="WIDTH: 153px"/>
+<col style="WIDTH: 153px"/>
+<col style="WIDTH: 153px"/></colgroup>
+<tbody>
+<tr style="MIN-HEIGHT: 17px">
+<td>1.设计测试计划</td>
+<td>2012/10/24</td>
+<td>2012/10/25</td>
+<td>2天</td></tr>
+<tr style="MIN-HEIGHT: 14px">
+<td style="BORDER-TOP-COLOR: ">2.白盒测试设计</td>
+<td style="BORDER-TOP-COLOR: ">2012/10/27</td>
+<td style="BORDER-TOP-COLOR: ">2012/10/29</td>
+<td style="BORDER-TOP-COLOR: ">3天</td></tr>
+<tr>
+<td>3.编写桩</td>
+<td>2012/10/30</td>
+<td>2012/11/2</td>
+<td>4天</td></tr>
+<tr>
+<td>4.测试用例的执行</td>
+<td>2012/11/2</td>
+<td>2012/11/3</td>
+<td>2天</td></tr>
+<tr>
+<td>5.熟悉用户界面</td>
+<td>2012/11/4</td>
+<td>2012/11/4</td>
+<td>1天</td></tr>
+<tr>
+<td>6.设计黑盒测试用例</td>
+<td>2012/11/5</td>
+<td>2012/11/6</td>
+<td>2天</td></tr>
+<tr>
+<td>7.测试执行兵记录缺陷</td>
+<td>2012/11/6</td>
+<td>2012/11/7</td>
+<td>2天</td></tr>
+<tr>
+<td>8.重复测试用例的执行</td>
+<td>2012/11/7</td>
+<td>2012/11/9</td>
+<td>3天</td></tr>
+<tr>
+<td>9.编写系统测试报告将所有测试文档集和测试数据传输给配置管理组</td>
+<td>2012/11/9</td>
+<td>2012/11/10</td>
+<td>2天</td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">总计 18天</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">3.成本：</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<table tabIndex="-1" title="" class="xdRepeatingTable msoUcTable CTRL65" style="BORDER-TOP-STYLE: none; WORD-WRAP: break-word; BORDER-LEFT-STYLE: none; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 612px" border="1">
+<colgroup>
+<col style="WIDTH: 153px"/>
+<col style="WIDTH: 153px"/>
+<col style="WIDTH: 153px"/>
+<col style="WIDTH: 153px"/></colgroup>
+<tbody>
+<tr style="MIN-HEIGHT: 17px">
+<td>
+<div> </div>
+<div>测试类型</div></td>
+<td>人员成本</td>
+<td>工具设备</td>
+<td>其他费用</td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<table tabIndex="-1" title="" class="xdRepeatingTable msoUcTable CTRL65" style="BORDER-TOP-STYLE: none; WORD-WRAP: break-word; BORDER-LEFT-STYLE: none; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 612px" border="1">
+<colgroup>
+<col style="WIDTH: 153px"/>
+<col style="WIDTH: 153px"/>
+<col style="WIDTH: 153px"/>
+<col style="WIDTH: 153px"/></colgroup>
+<tbody>
+<tr style="MIN-HEIGHT: 17px">
+<td>黑盒测试</td>
+<td>20000</td>
+<td>5000</td>
+<td>3000</td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">总计：28000</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">4.人员：</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">    用时人员           编写用例               执行测试             总计</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<table tabIndex="-1" title="" class="xdRepeatingTable msoUcTable CTRL65" style="BORDER-TOP-STYLE: none; WORD-WRAP: break-word; BORDER-LEFT-STYLE: none; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 612px" border="1">
+<colgroup>
+<col style="WIDTH: 153px"/>
+<col style="WIDTH: 153px"/>
+<col style="WIDTH: 153px"/>
+<col style="WIDTH: 153px"/></colgroup>
+<tbody>
+<tr style="MIN-HEIGHT: 19px">
+<td>1.史兴胜</td>
+<td>0.5</td>
+<td>1</td>
+<td>1.5</td></tr>
+<tr>
+<td>2.李洋</td>
+<td>2</td>
+<td>2.5</td>
+<td>4.5</td></tr>
+<tr style="MIN-HEIGHT: 14px">
+<td>3.温晨</td>
+<td>4.5</td>
+<td>4.5</td>
+<td>9</td></tr>
+<tr>
+<td>4.张斌</td>
+<td>3</td>
+<td>3</td>
+<td>6</td></tr>
+<tr>
+<td>5.杨熠波</td>
+<td>3</td>
+<td>5</td>
+<td>8</td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<table tabIndex="-1" title="" class="xdRepeatingTable msoUcTable CTRL65" style="BORDER-TOP-STYLE: none; WORD-WRAP: break-word; BORDER-LEFT-STYLE: none; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 612px" border="1">
+<colgroup>
+<col style="WIDTH: 153px"/>
+<col style="WIDTH: 153px"/>
+<col style="WIDTH: 153px"/>
+<col style="WIDTH: 153px"/></colgroup>
+<tbody>
+<tr style="MIN-HEIGHT: 17px">
+<td>6.陈晨</td>
+<td>2</td>
+<td>5</td>
+<td>7</td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">合计：36</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">5.生产率</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  成产率人员         用例(个)/编写时间(h)    用例(个)/执行时间(h)    平均</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<table tabIndex="-1" title="" class="xdRepeatingTable msoUcTable CTRL65" style="BORDER-TOP-STYLE: none; WORD-WRAP: break-word; BORDER-LEFT-STYLE: none; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 612px" border="1">
+<colgroup>
+<col style="WIDTH: 153px"/>
+<col style="WIDTH: 153px"/>
+<col style="WIDTH: 153px"/>
+<col style="WIDTH: 153px"/></colgroup>
+<tbody>
+<tr style="MIN-HEIGHT: 17px">
+<td>1.史兴胜</td>
+<td>1/0.5</td>
+<td>1/1</td>
+<td>1.5</td></tr>
+<tr style="MIN-HEIGHT: 16px">
+<td>2.李洋</td>
+<td>5/2</td>
+<td>5/2.5</td>
+<td>2.25</td></tr>
+<tr style="MIN-HEIGHT: 14px">
+<td>3.温晨</td>
+<td>10/2.5</td>
+<td>10/2</td>
+<td>4.5</td></tr>
+<tr style="MIN-HEIGHT: 16px">
+<td>4.张斌</td>
+<td>9/3</td>
+<td>9/3</td>
+<td>3</td></tr>
+<tr style="MIN-HEIGHT: 17px">
+<td>5.杨熠波</td>
+<td>30/3</td>
+<td>30/5</td>
+<td>8</td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<table tabIndex="-1" title="" class="xdRepeatingTable msoUcTable CTRL65" style="BORDER-TOP-STYLE: none; WORD-WRAP: break-word; BORDER-LEFT-STYLE: none; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 612px" border="1">
+<colgroup>
+<col style="WIDTH: 153px"/>
+<col style="WIDTH: 153px"/>
+<col style="WIDTH: 153px"/>
+<col style="WIDTH: 153px"/></colgroup>
+<tbody>
+<tr>
+<td>6.陈晨</td>
+<td>10/2</td>
+<td>10/5</td>
+<td>3.5</td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">6.测试版本：</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; WIDTH: 384px" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 128px"/>
+<col style="WIDTH: 128px"/>
+<col style="WIDTH: 128px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 17px">
+<td>
+<div><font size="2" face="宋体">子系统/模块</font></div></td>
+<td>
+<div><font size="2" face="宋体">测试次数</font></div></td>
+<td>
+<div><font size="2" face="宋体">回归测试次数</font></div></td></tr>
+<tr style="MIN-HEIGHT: 16px">
+<td style="BORDER-TOP-COLOR: ; BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">用户登录</font></div></td>
+<td style="BORDER-TOP-COLOR: ; BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">2</font></div></td>
+<td style="BORDER-TOP-COLOR: ; BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">1</font></div></td></tr>
+<tr>
+<td style="BORDER-TOP-COLOR: ">
+<div><font size="2" face="宋体">歌曲播放</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div><font size="2" face="宋体">4</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div><font size="2" face="宋体">3</font></div></td></tr>
+<tr>
+<td>
+<div><font size="2" face="宋体">歌曲控制</font></div></td>
+<td>
+<div><font size="2" face="宋体">5</font></div></td>
+<td>
+<div><font size="2" face="宋体">4</font></div></td></tr>
+<tr>
+<td>
+<div><font size="2" face="宋体">歌曲榜单</font></div></td>
+<td>
+<div><font size="2" face="宋体">2</font></div></td>
+<td>
+<div><font size="2" face="宋体">1</font></div></td></tr>
+<tr>
+<td>
+<div><font size="2" face="宋体">歌曲搜索</font></div></td>
+<td>
+<div><font size="2" face="宋体">3</font></div></td>
+<td>
+<div><font size="2" face="宋体">2</font></div></td></tr>
+<tr>
+<td>
+<div><font size="2" face="宋体">添加曲目</font></div></td>
+<td>
+<div><font size="2" face="宋体">2</font></div></td>
+<td>
+<div><font size="2" face="宋体">1</font></div></td></tr>
+<tr style="MIN-HEIGHT: 16px">
+<td>
+<div><font size="2" face="宋体">删除曲目</font></div></td>
+<td>
+<div><font size="2" face="宋体">2</font></div></td>
+<td>
+<div><font size="2" face="宋体">1</font></div></td></tr>
+<tr>
+<td style="BORDER-TOP-COLOR: ">
+<div><font size="2" face="宋体">修改曲目信息</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div><font size="2" face="宋体">4</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div><font size="2" face="宋体">3</font></div></td></tr>
+<tr>
+<td style="BORDER-TOP-COLOR: ">
+<div><font size="2" face="宋体">查询曲目信息</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div><font size="2" face="宋体">2</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div><font size="2" face="宋体">1</font></div></td></tr></tbody></table></div></测试执行情况与记录>
+		<覆盖分析><div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><strong>1.需求覆盖 </strong></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; WIDTH: 385px" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 104px"/>
+<col style="WIDTH: 79px"/>
+<col style="WIDTH: 65px"/>
+<col style="WIDTH: 60px"/>
+<col style="WIDTH: 77px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 18px">
+<td>
+<div><font size="2" face="宋体"> 功能</font></div></td>
+<td>
+<div><font size="2" face="宋体">测试类型</font></div></td>
+<td>
+<div><font size="2" face="宋体">测试结果</font></div></td>
+<td>
+<div><font size="2" face="宋体">是否通过</font></div></td>
+<td>
+<div><font size="2" face="宋体">备注</font></div></td></tr>
+<tr style="MIN-HEIGHT: 16px">
+<td colSpan="5">
+<div><font size="2" face="宋体">                    登录模块</font></div></td></tr>
+<tr style="MIN-HEIGHT: 18px">
+<td>
+<div><font size="2" face="宋体">1.软件登录</font></div></td>
+<td>
+<div><font size="2" face="宋体">功能点测试</font></div></td>
+<td>
+<div><font size="2" face="宋体">登录成功</font></div></td>
+<td>
+<div><font size="2" face="宋体">   Y</font></div></td>
+<td>
+<div><font size="2" face="宋体"></font> </div></td></tr>
+<tr style="MIN-HEIGHT: 16px">
+<td colSpan="5">
+<div><font size="2" face="宋体">                    用户模块</font></div></td></tr>
+<tr>
+<td>
+<div><font size="2" face="宋体">2.歌曲播放</font></div></td>
+<td>
+<div><font size="2" face="宋体">功能点测试</font></div></td>
+<td>
+<div><font size="2" face="宋体">播放成功</font></div></td>
+<td>
+<div><font size="2" face="宋体">   Y</font></div></td>
+<td>
+<div><font size="2" face="宋体"></font> </div></td></tr>
+<tr style="MIN-HEIGHT: 16px">
+<td>
+<div><font size="2" face="宋体">3.歌曲搜索</font></div></td>
+<td>
+<div><font size="2" face="宋体">功能点测试</font></div></td>
+<td>
+<div><font size="2" face="宋体">搜索成功</font></div></td>
+<td>
+<div><font size="2" face="宋体">   Y</font></div></td>
+<td>
+<div><font size="2" face="宋体"></font> </div></td></tr>
+<tr style="MIN-HEIGHT: 16px">
+<td>
+<div><font size="2" face="宋体">4.歌曲榜单</font></div></td>
+<td>
+<div><font size="2" face="宋体">功能点测试</font></div></td>
+<td>
+<div><font size="2" face="宋体">点击成功</font></div></td>
+<td>
+<div><font size="2" face="宋体">   Y</font></div></td>
+<td>
+<div><font size="2" face="宋体"></font> </div></td></tr>
+<tr style="MIN-HEIGHT: 18px">
+<td>
+<div><font size="2" face="宋体">5.歌曲控制</font></div></td>
+<td>
+<div><font size="2" face="宋体">功能点测试</font></div></td>
+<td>
+<div><font size="2" face="宋体">控制成功</font></div></td>
+<td>
+<div><font size="2" face="宋体">   Y</font></div></td>
+<td>
+<div><font size="2" face="宋体"></font> </div></td></tr>
+<tr style="MIN-HEIGHT: 16px">
+<td colSpan="5">
+<div><font size="2" face="宋体">                    管理模块</font></div></td></tr>
+<tr style="MIN-HEIGHT: 16px">
+<td>
+<div><font size="2" face="宋体">6.添加曲目</font></div></td>
+<td>
+<div><font size="2" face="宋体">功能点测试</font></div></td>
+<td>
+<div><font size="2" face="宋体">添加成功</font></div></td>
+<td>
+<div><font size="2" face="宋体">   Y</font></div></td>
+<td>
+<div><font size="2" face="宋体"></font> </div></td></tr>
+<tr style="MIN-HEIGHT: 17px">
+<td>
+<div><font size="2" face="宋体">7.删除曲目</font></div></td>
+<td>
+<div><font size="2" face="宋体">功能点测试</font></div></td>
+<td>
+<div><font size="2" face="宋体">删除成功</font></div></td>
+<td>
+<div><font size="2" face="宋体">   Y </font></div></td>
+<td>
+<div><font size="2" face="宋体"></font> </div></td></tr>
+<tr>
+<td>
+<div><font size="2" face="宋体">8.修改曲目信息</font></div></td>
+<td>
+<div><font size="2" face="宋体">功能点测试</font></div></td>
+<td>
+<div><font size="2" face="宋体">修改成功</font></div></td>
+<td>
+<div><font size="2" face="宋体">   Y</font></div></td>
+<td>
+<div><font size="2" face="宋体"></font> </div></td></tr>
+<tr>
+<td>
+<div><font size="2" face="宋体">9.查询曲目</font></div></td>
+<td>
+<div><font size="2" face="宋体">功能点测试</font></div></td>
+<td>
+<div><font size="2" face="宋体">查询成功</font></div></td>
+<td>
+<div><font size="2" face="宋体">   Y</font></div></td>
+<td>
+<div><font size="2" face="宋体"></font> </div></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Y表示通过</div>
+<div style="MARGIN-BOTTOM: 0pt; FONT-SIZE: 12pt; PADDING-LEFT: 0cm; MARGIN-TOP: 0cm; PADDING-RIGHT: 0cm" xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font face="宋体"><span style="FONT-SIZE: 10pt"><font style="BACKGROUND-COLOR: white">P</font></span><span style="FONT-SIZE: 10pt"><font style="BACKGROUND-COLOR: white">表示部分通过</font></span></font></div>
+<div style="MARGIN-BOTTOM: 0pt; FONT-SIZE: 12pt; PADDING-LEFT: 0cm; MARGIN-TOP: 0cm; PADDING-RIGHT: 0cm" xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font face="宋体"><span style="FONT-SIZE: 10pt"><font style="BACKGROUND-COLOR: white">N/A</font></span><span style="FONT-SIZE: 10pt"><font style="BACKGROUND-COLOR: white">表示不可测试或者用例不适用</font></span></font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">需求覆盖率=Y总数/需求总数=100%</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><strong>
+<div><strong>2.测试覆盖</strong></div>
+<div>
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; WIDTH: 413px" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 119px"/>
+<col style="WIDTH: 71px"/>
+<col style="WIDTH: 68px"/>
+<col style="WIDTH: 75px"/>
+<col style="WIDTH: 80px"/></colgroup>
+<tbody vAlign="top">
+<tr>
+<td>
+<div><font size="2" face="宋体">功能</font></div></td>
+<td>
+<div><font size="2" face="宋体">用例个数</font></div></td>
+<td>
+<div><font size="2" face="宋体">执行总数</font></div></td>
+<td>
+<div><font size="2" face="宋体"><span style="FONT-SIZE: 10pt"><font style="BACKGROUND-COLOR: white" face="宋体">未执行</font></span></font></div></td>
+<td>
+<div><font size="2" face="SimSun">未执行原因</font></div></td></tr>
+<tr>
+<td>1.外网登录模块测试</td>
+<td>
+<div><font size="2" face="宋体">4</font></div></td>
+<td>4</td>
+<td>
+<div><font size="2" face="宋体">0</font></div></td>
+<td>
+<div><font size="2" face="宋体"></font> </div></td></tr>
+<tr style="MIN-HEIGHT: 29px">
+<td>
+<div><font size="2" face="宋体">2.外网点歌模块测试</font></div></td>
+<td>
+<div><font size="2" face="宋体">8</font></div></td>
+<td>
+<div><font size="2" face="宋体">8</font></div></td>
+<td>
+<div><font size="2" face="宋体">0</font></div></td>
+<td>
+<div><font size="2" face="宋体"></font> </div></td></tr>
+<tr style="MIN-HEIGHT: 29px">
+<td>
+<div><font size="2" face="宋体">3.外网欢迎模块测试</font></div></td>
+<td>
+<div><font size="2" face="宋体">1</font></div></td>
+<td>
+<div><font size="2" face="宋体">1</font></div></td>
+<td>
+<div><font size="2" face="宋体">0</font></div></td>
+<td>
+<div><font size="2" face="宋体"></font> </div></td></tr>
+<tr style="MIN-HEIGHT: 16px">
+<td>
+<div><font size="2" face="宋体">4.外网已点歌曲模块测试</font></div></td>
+<td>
+<div><font size="2" face="宋体">8</font></div></td>
+<td>
+<div><font size="2" face="宋体">8</font></div></td>
+<td>
+<div><font size="2" face="宋体">0</font></div></td>
+<td>
+<div><font size="2" face="宋体"></font> </div></td></tr>
+<tr>
+<td>
+<div><font size="2" face="宋体">5.内网登录模块测试</font></div></td>
+<td>
+<div><font size="2" face="宋体">5</font></div></td>
+<td>
+<div><font size="2" face="宋体">5</font></div></td>
+<td>
+<div><font size="2" face="宋体">0</font></div></td>
+<td>
+<div><font size="2" face="宋体"></font> </div></td></tr>
+<tr style="MIN-HEIGHT: 16px">
+<td>
+<div><font size="2" face="宋体">6.内网管理员管理模块测试</font></div></td>
+<td>
+<div><font size="2" face="宋体">3</font></div></td>
+<td>
+<div><font size="2" face="宋体">3</font></div></td>
+<td>
+<div><font size="2" face="宋体">0</font></div></td>
+<td>
+<div><font size="2" face="宋体"></font> </div></td></tr>
+<tr>
+<td>
+<div><font size="2" face="宋体">7.内网添加歌曲信息模块测试</font></div></td>
+<td>
+<div><font size="2" face="宋体">10</font></div></td>
+<td>
+<div><font size="2" face="宋体">10</font></div></td>
+<td>
+<div><font size="2" face="宋体">0</font></div></td>
+<td>
+<div><font size="2" face="宋体"></font> </div></td></tr>
+<tr style="MIN-HEIGHT: 29px">
+<td>
+<div><font size="2" face="宋体">8.内网修改歌曲信息模块测试</font></div></td>
+<td>
+<div><font size="2" face="宋体">5</font></div></td>
+<td>
+<div><font size="2" face="宋体">5</font></div></td>
+<td>
+<div><font size="2" face="宋体">0</font></div></td>
+<td>
+<div><font size="2" face="宋体"></font> </div></td></tr></tbody></table></div>
+<div> </div>
+<div>测试覆盖率=执行数/用例总数*100%=44/44*100%=100%</div></strong></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> </div></覆盖分析>
+	</测试结果>
+	<缺陷的统计与分析>
+		<缺陷统计><div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">4.1.1严重程度分类</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">致命 系统崩溃或挂起等导致系统不能继续运行；</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">严重 使系统不稳定、或破坏数据、或产生错误结果，而且是常规操作中经常发生或非常规操作中不可避免的主要问题；</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">一般 系统性能或响应时间变慢、产生错误的中间结果但不影响最终结果等影响有限的问题，如：显示不正确但输出正确</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">轻微 界面拼写错误或用户使用不方便等小问题或需要完善的问题；</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">严重错误，包括以下各种错误：            </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1.由于程序所引起的死机,非法退出             </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2.死循环             </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">3.数据库发生死锁            </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">4.数据库设计未达到第三范式的要求或需求规格说明的格式水平            </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">5.功能错误             </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">6.与数据库连接错误            </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">7.数据通讯错误 </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">B类 较严重错误，包括以下各种错误            </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1.程序错误            </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2.因错误操作迫使程序中断            </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">3.程序接口错误            </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">4.数据库的表、业务规则、缺省值未加完整性等约束条件 </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">C类 一般性错误，包括以下各种错误            </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1.操作界面错误（包括数据窗口内列名定义、含义是否一致）            </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2.打印内容、格式错误            </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">3.简单的输入限制未放在前台进行控制             </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">4.删除操作未给出提示            </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">5.数据库表中有过多的空字段 </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">D类 较小错误，包括以下各种错误 </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1.界面不规范            </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2.辅助说明描述不清楚            </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">3.输入输出不规范            </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">4.长操作未给用户提示            </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">5.提示窗口文字未采用行业术语            </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">6.可输入区域和只读区域没有明显的区分标志</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">4.1.2缺陷统计</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">缺陷1:歌曲列表中，查询到的信息与查询的条件所匹配</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">属于较严重错误</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1.登录外网，进入卡拉OK外网系统</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2.点击“点击进入”按钮</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">3.登录用户</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">4.选择“专辑”选项</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">5.不输入任何数据，直接点击“搜索”按钮</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">6.系统反应:页面为空</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">缺陷2:搜索功能测试，验证<font face="SimSun">综合</font>搜索功能</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">严重错误</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<div>1.登录外网，进入卡拉OK外网系统</div>
+<div>2.点击“点击进入”按钮</div>
+<div>3.登录用户</div>
+<div>4.点击“播放/选歌列表”按钮</div>
+<div>5.直接点击“搜索”按钮</div>
+<div>6.系统反应:报错</div>
+<div><img tabIndex="-1" style="HEIGHT: 395px; WIDTH: 471px" src="msoinline/f393b1b26af94442" xd:inline="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" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003"/></div>
+<div>红色为严重bug</div>
+<div>黄色为较严重bug</div>
+<div>蓝色为正常项</div></div></缺陷统计>
+		<缺陷分析><div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">4.2.1缺陷类型： </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1）设计不合理;  </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2）功能、特性没有实现或部分实现;  </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">3）运行出错，包括运行中断、系统崩溃、界面混乱等;  </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">4）与需求不一致，实际结果和预期结果不一致; </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">5）用户不能接受的其他问题，如存取时间过长、界面不美观; </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">6）软件实现了需求未提到的功能。</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">4.2.2系统缺陷分析</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">缺陷1：属于设计不合理,搜索源码部分出现编写漏洞。</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">缺陷2：属于运行出错，应是后台与数据库连接部分出现差错。</div></缺陷分析>
+	</缺陷的统计与分析>
+	<测试结论与建议>
+		<结论><div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1.测试执行充分，对用户登录进行了安全性测试，针对系统功能编写了测试用例并执行了测试包括功能点测试以及性能、压力测试。</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2.</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<table tabIndex="-1" class="MsoNormalTable msoUcTable" style="BORDER-TOP-STYLE: none; WORD-WRAP: break-word; BORDER-LEFT-STYLE: none; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 569px" borderColor="#000000" cellPadding="0" border="1">
+<colgroup>
+<col style="WIDTH: 55px"/>
+<col style="WIDTH: 103px"/>
+<col style="WIDTH: 76px"/>
+<col style="WIDTH: 76px"/>
+<col style="WIDTH: 95px"/>
+<col style="WIDTH: 164px"/></colgroup>
+<tbody>
+<tr style="MIN-HEIGHT: 22.6pt">
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">编号</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">01</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">填表人</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体"><strong>史兴胜</strong></font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">填表日期</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">2012-11-9</font></div></font></td></tr>
+<tr>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">项目名称</font></div></font></td>
+<td colSpan="3"><font size="2" face="宋体">
+<div><font size="2" face="宋体">卡拉OK点歌系统网页版</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">项目经理</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">黄晨</font></div></font></td></tr>
+<tr>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">风险编号</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">风险名称</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">风险类别</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">发生概率</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">风险后果</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">应对措施</font></div></font></td></tr>
+<tr>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">1</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">测试工具掌握程度</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">技术风险</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">很可能</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">不能按规定日期完场任务</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">组员之间加强对软件的学习，互相交流</font></div></font></td></tr>
+<tr>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">2</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">不熟悉桩模块的编写</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">技术风险</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">可能</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">不能完成集成测试</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">多与老师和同学交流</font></div></font></td></tr>
+<tr>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">3</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">人员不稳定</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">外部可预测风险</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">不可能</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">显著危害</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">增加团队激励与沟通，增加团队氛围</font></div></font></td></tr>
+<tr>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">4</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">进度达不到预期效果</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">技术风险</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">可能</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">显著危害</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">加班加点</font></div></font></td></tr>
+<tr>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">5</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">软件安装不上</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">技术风险</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">可能</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">不能按照测试完成</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">请教装上该软件的同学</font></div></font></td></tr>
+<tr>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">6</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">小组中有人不干活</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">外部预测风险</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">很可能</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">小组中任务分配出现不平均现象</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">项目经理及各个小组组长协调动员</font></div></font></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">3.测试目标已经完成，同时测试结果已通过，可以进入下一阶段项目目标。</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> </div></结论>
+		<建议><div xmlns="http://www.w3.org/1999/xhtml">1：搜索部分出现了少量的BUG，需要修改。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">2：建议搜索部分加入模糊搜索功能。</div></建议>
+	</测试结论与建议>
+</测试报告>

@@ -18,11 +18,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	-->
   </head>
-<frameset rows="*,3,1" cols="*,400" framespacing="1" frameborder="yes" border="1">
-  <frameset rows="188,*" cols="*" framespacing="0" frameborder="no" border="0">
-    <frame src="head.html" name="topFrame" scrolling="no" noresize="noresize" id="topFrame" title="head" />
-    <frame src="main.html" name="mainFrame" id="mainFrame" title="main" />
-  </frameset>
+<frameset rows="*,3,1" cols="*,25%" framespacing="1" frameborder="yes" border="1">
+    <frame src="mainwelcome.jsp" name="mainFrame" id="mainFrame" title="main" />
   <frame src="welcome.jsp" name="rightFrame" scrolling="no" noresize="noresize" id="rightFrame" title="right" />
 </frameset>
 <noframes>
